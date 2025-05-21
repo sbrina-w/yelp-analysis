@@ -1,0 +1,18 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore data files
+*.json
+data/
+yelp_data/
+
+# Ignore environment
+venv/
+.env
+
+# Ignore system files
+.DS_Store
