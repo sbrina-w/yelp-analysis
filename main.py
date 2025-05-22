@@ -2,13 +2,11 @@ import pandas as pd
 from pipeline.review_loader import load_grouped_reviews
 from pipeline.langchain_pipeline import analyze_individual_review, summarize_by_category
 from pipeline.hf_pipeline import hf_sentiment, hf_summarize
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm #progress bar for visual 
 
-def analyze_reviews_for_restaurant(business_id: str, name: str, all_reviews: list[str]):
-    print(f"\nAnalyzing: {name} ({business_id})")
-
-    individual_analyses = []
-    for review in all_reviews:
-        if isinstance(review, str) and review.strip():  #skip empty or malformed reviews
+def analyze_one_review(review: str):
+    if isinstance(review, str) and review.strip():  #skip empty or malformed reviews
             hf_sent = hf_sentiment(review)
             hf_sum = hf_summarize(review)
             #only use OpenAI if HF sentiment is not positive
@@ -17,14 +15,26 @@ def analyze_reviews_for_restaurant(business_id: str, name: str, all_reviews: lis
             else:
                 openai_result = {}
 
-            individual_analyses.append({
+            return {
                 "review": review,
                 "hf_sentiment": hf_sent,
                 "hf_summary": hf_sum,
                 "openai_analysis": openai_result
-            })
-        break
+            }
+    return None
 
+def analyze_reviews_parallel(reviews: list[str]):
+    results = []
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        for result in tqdm(executor.map(analyze_one_review, reviews), total=len(reviews), desc="Analyzing reviews"):
+            if result is not None:
+                results.append(result)
+    return results
+
+def analyze_reviews_for_restaurant(business_id: str, name: str, all_reviews: list[str]):
+    print(f"\nAnalyzing: {name} ({business_id})")
+
+    individual_analyses = analyze_reviews_parallel(all_reviews)
     category_summary = summarize_by_category(all_reviews)
 
     return {
@@ -36,10 +46,9 @@ def analyze_reviews_for_restaurant(business_id: str, name: str, all_reviews: lis
 
 def main():
     grouped_df = load_grouped_reviews("yelp_data/10_sample_restaurant_reviews.csv")
-
     all_results = []
 
-    for _, row in grouped_df.iterrows():
+    for _, row in tqdm(grouped_df.iterrows(), total=len(grouped_df), desc="Restaurants"):
         business_id = row["business_id"]
         name = row["name"]
         reviews = row["text"] 

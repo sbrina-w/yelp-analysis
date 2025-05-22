@@ -3,17 +3,128 @@
     "business_id":"2LfbIS6K7jusVVgYYFtNIA",
     "name":"Hyon's Seafood & Restaurant",
     "category_summary":{
-      "food":"The food at Hyon's is generally praised for its delicious fried options, particularly the wings and seafood. However, some customers have noted a decline in quality over the years, with complaints about mushy seafood and lack of flavor in certain dishes. Overall, the portions are considered generous and the prices reasonable.",
-      "service":"The service is described as friendly and attentive, with staff often recognizing regular customers. However, there are some complaints about the speed of service and the need for more staff during busy times.",
-      "atmosphere":"Hyon's has a small storefront atmosphere that can get crowded quickly. While some find the neighborhood a bit sketchy, others appreciate the nostalgic vibe and cleanliness of the establishment.",
-      "noise":"The reviews do not specifically mention noise levels, but the crowded nature of the restaurant suggests it can be lively during peak times.",
-      "seating":"Seating is limited, with only a small bench available for waiting. Customers often pick up their orders rather than dine in due to the small size of the restaurant."
+      "food":"The food at Hyon's is generally praised for its delicious fried options, particularly the wings and seafood. However, some customers have noted a decline in quality over the years, with complaints about mushy seafood and lack of flavor in certain dishes. Despite this, many still consider it a go-to spot for satisfying fried food.",
+      "service":"Customer service is often highlighted as friendly and attentive, with staff recognizing regular customers. However, there are some complaints about the speed of service and the need for more staff during busy times.",
+      "atmosphere":"The atmosphere is described as small and crowded, typical of a storefront restaurant. While some reviews mention the neighborhood as 'sketchy,' others find it acceptable given the quality of food.",
+      "noise":"There are no specific mentions of noise levels in the reviews, but the crowded nature of the restaurant suggests it can get busy.",
+      "seating":"Seating is limited, with only a small bench available for waiting. Customers often have to wait for their food in a crowded space."
     },
     "individual_analyses":[
       {
         "review":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try and the staff are very friendly.",
         "hf_sentiment":"positive",
-        "hf_summary":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try. The staff are very friendly and the food is very good. I LOVE HYon'S! I LOVE Hyon's! I love Hyon's! I Love Hyon\u2019s!",
+        "hf_summary":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try and the staff are very friendly.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I have been living in West Philly for about 3 years now and I don't know how I never heard of this place! This is an all-fried food heaven! Don't come here if you are on a diet or not a fan of fried food. However, if your heart and health allows you to treat yourself with a 'lil fried goodies every now and then, Hyon's is the place to go. \n\nThey have a good selection of fried seafood and some fried chicken options (menu pictures posted). Food is made to order and platters are huge!! Also the price point is perfect and the kitchen seems clean! I can't say anything really bad about the place itself as I tried it and loved it. However, as you might notice, the neighborhood could be a little \"sketch\" time to time, which I find totally acceptable as you ll be there for 5 mins picking up your food.\n\nLastly, I haven't tried it myself but I can definitely see Hyon's as the place to order \"finger food\" for the occasional house party too!!!\n\n*Giving it a 4 star because of the location. Food is just amazing..",
+        "hf_sentiment":"positive",
+        "hf_summary":"Don't come here if you are on a diet or not a fan of fried food. Food is made to order and platters are huge!! Also the price point is perfect and the kitchen seems clean! I can't say anything really bad about the place itself as I tried it and loved it. However, as you might notice, the neighborhood could be a little \"sketch\" time to time, which I find totally acceptable.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This place will FOREVER get a bad rap because of it's location. But whatevs lol. The food is great. This is where you get all of your deep fried\/fast food from. Hyon's has been around for years and years with two locations. This one amd the South Philly location. \n\nCheesesteaks, fries, onion rings and those damn breaded WINGS! I don't know what they bread them with at all and it annoys me lol kidding. But the wings are so crispy and light ! \n\nVery clean store and everyone wears gloves. \n\nHyon's is small\/storefront. Small bench to wait but this place gets crowded and fast. Employees are very friendly and attentive. They know their customer's orders as they walk in the door. You can order specials or platters from the menu or order things a la carte. They really do have some of the best wings in the city. \n\nNo online menu but I snagged a paper menu to start calling ahead of time.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Hyon's has been around for years and years with two locations. You can order specials or platters from the menu or order things a la carte. Employees are very friendly and attentive. They really do have some of the best wings in the city. No online menu but I snagged a paper menu to start calling ahead of time.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I have been going to Hyons for decades.  The food is good and the prices are even better.  I don't really care for seafood so i stick to the burgers, chicken fingers, and cheesesteaks. The only thing i don't like is that they bread their chicken.  I find that the chicken has no flavor and you really have to \"doctor it up\"!",
+        "hf_sentiment":"negative",
+        "hf_summary":"The food is good and the prices are even better. I don't really care for seafood so i stick to the burgers, chicken fingers, and cheesesteaks. The only thing i don't like is that they bread their chicken",
+        "openai_analysis":{
+          "summary":"The reviewer has been a long-time customer of Hyons, enjoys the food and prices, but dislikes the flavor of the breaded chicken.",
+          "issue_type":"Food Quality",
+          "priority":"Medium",
+          "sentiment":"neutral"
+        }
+      },
+      {
+        "review":"I always get the #8 flounder, wings, fries soooooo good best in the city since I was a kid.",
+        "hf_sentiment":"positive",
+        "hf_summary":"I always get the #8 flounder, wings, fries soooooo good best in the city since I was a kid.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This place trash. In every sense. Paid $30 for food couldn't even finish it. Food ass. One of the employees looked like a fiend.",
+        "hf_sentiment":"negative",
+        "hf_summary":"This place trash. In every sense. Paid $30 for food couldn't even finish it. Food ass. One of the employees looked like a fiend.",
+        "openai_analysis":{
+          "summary":"The reviewer had a very negative experience, finding the food inedible and criticizing the appearance of an employee.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"This used to be one of my favorite restaurants\/hood spots but since the last few years their dood has fallen off dramatically. I mean the seafood is mushy at best while their famous fry batter is mediocre. The only thing that really hasn't lost its flavor or crunch would be the wings. Fair is fair and if I had to say if the was fair I would say \"HARDLY\". Dear Hyons please get rid of whomever is preparing what used to be your delicious food because brother it's the worst.\n\nSigned a very close neighbor",
+        "hf_sentiment":"negative",
+        "hf_summary":"This used to be one of my favorite restaurants\/hood spots but since the last few years their dood has fallen off dramatically. I mean the seafood is mushy at best while their famous fry batter is mediocre. Fair is fair and if I had to say if the was fair I would say \"HARDLY\"",
+        "openai_analysis":{
+          "summary":"The reviewer expresses disappointment in the declining food quality, particularly the seafood and fry batter, while noting that the wings remain good.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I mean go for seafood the steak on the cheese steaks are actually real steak which you dont really see at these Urban spots",
+        "hf_sentiment":"neutral",
+        "hf_summary":"I mean go for seafood the steak on the cheese steaks are actually real steak which you dont really see at these Urban spots",
+        "openai_analysis":{
+          "summary":"The reviewer recommends the seafood and appreciates that the steak in the cheese steaks is real steak, which is uncommon in urban restaurants.",
+          "issue_type":"Food Quality",
+          "priority":"Medium",
+          "sentiment":"positive"
+        }
+      },
+      {
+        "review":"best sea food in west philly.fast and nice.",
+        "hf_sentiment":"positive",
+        "hf_summary":"best sea food in west philly.fast and nice.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Love the full bred customer service I wish they had a bigger variety of fish but everything they got it is good",
+        "hf_sentiment":"positive",
+        "hf_summary":"Love the full bred customer service I wish they had a bigger variety of fish but everything they got it is good",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I wasn't pleased with the service or my food. They were rushing and need more help to process the orders.",
+        "hf_sentiment":"negative",
+        "hf_summary":"I wasn't pleased with the service or my food. They were rushing and need more help to process the orders.",
+        "openai_analysis":{
+          "summary":"The reviewer was dissatisfied with both the service and the food, citing a need for more staff to handle orders efficiently.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I was in the mood for some breaded wings and crabstick's so i went to Hyons. Grew up on Hyons being as though ima West Philly Native. They still have that good flavor like in the 90's when i was a little kid. It was nostalgia eating here it took me back to my childhood they haven't missed a beat. The food was Great and the Staff was Friendly. They have the Best Breaded wings in the City Hands down.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Grew up on Hyons being as though ima West Philly Native. The food was Great and the Staff was Friendly. They have the Best Breaded wings in the City Hands down.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Hyon's was pretty good for what I ordered, wasn't the best but pretty average. Being from Southwest and hanging in West Philly a lot coming up as a kid, I always use to see this store but never ate from here until recently.\n\n  Tell you this much, the amount of food you receive in a chicken wing special is more than enough for one person in my opinion. Even if you been REAL hungry.\n\n  That special comes with 6wings, golden nicely cooked fries, and your choice is of cole slaw or pasta salad. Think for $11+\n\n  So the prices definitely went up within the last 2yrs. Everything now is though cause of times so nothing big.\n\n  I enjoyed my wings honestly. Didn't finish them but they were satisfying and tasted decent.\n\n  Probably should've skipped on the crab sticks though but that was my fault cause I seen my cousin post some and I thought they would be good as his looked but they were just okay. Should've got the scallops like I originally was gonna do.\n\n  Called my order in ahead of time so it was no long time to get my food.  When you get there if you want condiments, you put them on yourself.\n\n  Everything is there so I put the ketchup, hot sauce, and little salt on both of my food.\n\n  Friendly staff inside. They speak and acknowledge you so that's always points for any business.\n\n  Have no complaints in general and yes I would come back, just would change my 2nd option.\n\n  Hyon's definitely worth a visit if your around the way.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The chicken wing special comes with 6wings, golden nicely cooked fries, and your choice is of cole slaw or pasta salad. The prices definitely went up within the last 2yrs. Everything now is though cause of times so nothing big. I enjoyed my wings honestly. Didn't finish them but they were satisfying and tasted decent. Probably should've skipped on the crab sticks though but that was my fault cause I seen my cousin post some and I thought they would be good as his looked but they're just okay.",
         "openai_analysis":{
 
         }
@@ -24,17 +135,116 @@
     "business_id":"3z2QLrbqRVpjsXioButL-g",
     "name":"ABC Market",
     "category_summary":{
-      "food":"The food is consistently praised for being fresh, tasty, and generously portioned. Many reviewers enjoy the Americanized Chinese dishes, with favorites including sweet and sour chicken, Mongolian beef, and crab Rangoon. While some note that the food may not be authentic, it is still considered satisfying and well-prepared.",
-      "service":"Customer service is highlighted as a strong point, with friendly and engaging staff who create a welcoming atmosphere. Reviewers appreciate the pleasant conversations with the cashier and the attentiveness of the owners.",
-      "atmosphere":"The restaurant is described as a no-frills, utilitarian space located in a market that may appear sketchy or uninviting from the outside. Despite this, many customers find the ambiance charming and enjoy the casual dining experience.",
-      "noise":"There are no specific mentions of noise levels in the reviews, suggesting that the environment is generally quiet and conducive to conversation.",
-      "seating":"Seating arrangements are not detailed in the reviews, but the focus seems to be more on the food and service rather than the dining setup."
+      "food":"The food is generally praised for being fresh, tasty, and generously portioned, with many reviewers highlighting specific dishes like sweet and sour chicken, Mongolian beef, and crab Rangoon. While some mention that it is Americanized Chinese food, it is still considered a solid choice for a quick meal.",
+      "service":"Customer service receives positive feedback, with many reviewers noting the friendliness of the staff and the enjoyable conversations with the cashier. The service is described as quick and accommodating.",
+      "atmosphere":"The atmosphere is described as utilitarian and no-frills, with some reviewers mentioning that the location may appear sketchy or uninviting. However, the lack of ambiance is often overlooked due to the quality of the food and service.",
+      "noise":"Noise levels are not specifically mentioned in the reviews, suggesting that it is not a significant factor affecting the dining experience.",
+      "seating":"Seating arrangements are not detailed in the reviews, but the dining area is implied to be simple and functional, catering more to a quick dining experience rather than a leisurely meal."
     },
     "individual_analyses":[
       {
         "review":"Ignore the dumpy market...at the very back, some damn tasty Chinese food is made...fresh ingredients, always cooked well.",
         "hf_sentiment":"positive",
-        "hf_summary":"At the very back, some damn tasty Chinese food is made...fresh ingredients, always cooked well. Ignore the dumpy market...at the veryback, some Damn tasty ChineseFood is made. At the back of the market, you'll find the best Chinese food in the world.",
+        "hf_summary":"Ignore the dumpy market...at the very back, some damn tasty Chinese food is made...fresh ingredients, always cooked well.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"My favorite Chinese food in Tucson! After trying various Chinese food restaurants I have to say this is the winner! The place might not be the most descent looking in appearance but don't let that fool you. They're food is freshly made; won't cook till you order. I love the lunch combos that run from 11am to 3pm. They come with 1 Egg Roll, Fried Rice and your choice of 1 entr\u00e9e and soup.   Portion is very generous, totally worth the $6. Service is great, owners are very friendly. Domo (cashier) is always fun to talk to! It's totally worth giving it a try!!",
+        "hf_sentiment":"positive",
+        "hf_summary":"The lunch combos run from 11am to 3pm. They come with 1 Egg Roll, Fried Rice and your choice of 1 entr\u00e9e and soup. Portion is very generous, totally worth the $6.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I was surprised that this place has pretty good Americanized Chinese food. The market looks a little sketchy, but I gave this place a chance after hearing lots of recommendations from a former classmate. Don't let the exterior scare you away. The food is sold inside of the market. I'm not a big fan of Americanized Chinese food which is why I gave this place four stars; however, this place sure does beatout Panda Express!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Don't let the exterior scare you away. The food is sold inside of the market. I'm not a big fan of Americanized Chinese food which is why I gave this place four stars.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I didn't think Chinese Food existed in Tucson! This no frills market with made to order specials at the back are affordable and freshly made. There are plenty of choices for lunch special (fried rice, choice of soup, entre and egg roll) or entres with steamed rice. The customer service is excellent and the food is delicious. We had the Mongolian beef (with chicken) and the chicken lo mein with both kinds of soup. We recommend the hot and sour.",
+        "hf_sentiment":"positive",
+        "hf_summary":"No frills market with made to order specials at the back. Plenty of choices for lunch special (fried rice, choice of soup, entre and egg roll) or entres with steamed rice.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Except for the scary dirty front door I love this place if you stay away from anything that relies on fresh vegetables. Chicken Lo Mein and Chicken fried rice use breast meat and serve 4 for 14 bucks",
+        "hf_sentiment":"positive",
+        "hf_summary":"Chicken Lo Mein and Chicken fried rice use breast meat and serve 4 for 14 bucks. Except for the scary dirty front door I love",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I ordered general chows chicken. Very tasty lots of fresh vegetables. It's a hole in the wall but food is great",
+        "hf_sentiment":"positive",
+        "hf_summary":"I ordered general chows chicken. Very tasty lots of fresh vegetables. It's a hole in the wall but food is great",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Some amazingly good sweet and sour chicken!\nI got the dinner plate that has the s&s chicken over steamed white rice and egg roll. The chicken pieces are huge, cooked perfectly and super fresh tasting. The egg roll was kinda weird but I'm picky with egg rolls. The crabpuffs are my favorite, they are so simple and delicious. I was kinda weirded out by the location because I went when it was dark but it was SO worth it! I just have to say be careful with the portions lol my boyfriend and I ordered a dinner plate each, a side of lo mein and crabpuffs and we basically could have shared it with 2 other people, more than half is left, and my bf could eat a small cow",
+        "hf_sentiment":"positive",
+        "hf_summary":"I got the dinner plate that has the s&s chicken over steamed white rice and egg roll. The chicken pieces are huge, cooked perfectly and super fresh tasting. The egg roll was kinda weird but I'm picky with egg rolls. The crabpuffs are my favorite, they are so simple and delicious.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"For folks from other parts of Tucson, South Park does appear \"sketchy\"  however ABC has been around forever.  Thanks to my daughter, I've been reacquainted with the \"Americanized food\" served here.  Folks are friendly and the cashier up frontprovides  quite pleasant conversation.  Love the lunch specials, and I recommend the pork fried rice.",
+        "hf_sentiment":"positive",
+        "hf_summary":"For folks from other parts of Tucson, South Park does appear \"sketchy\"  however ABC has been around forever. Love the lunch specials, and I recommend the pork fried rice.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Very unfriendly almost hostile prices are very high for no apparent reason save your money for a real store",
+        "hf_sentiment":"negative",
+        "hf_summary":"Very unfriendly almost hostile prices are very high for no apparent reason save your money for a real store",
+        "openai_analysis":{
+          "summary":"The reviewer finds the staff unfriendly and the prices excessively high, suggesting customers should avoid this restaurant.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I very much enjoyed the food and experience at the ABC. A nice walk from my motel made for a good appetite. Do not look for ambiance. Good conversation and a cook that cares about his craft are its specialties. Food was delicious.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Good conversation and a cook that cares about his craft are its specialties. Food was delicious. Do not look for ambiance.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Oh man! This place!!!!! Usually a New Year's Day hang over classic with my family, I had forgotten, lucky for me, \nI happened upon this delectable American style Chinese food the other night, while trying to check out the Sonoran hot dog place across the street, the hot dog spot was gone! Yep, Mexicans don't mess around with Easter, and I respect their devotion to their God, and them taking off to celebrate. Good stuff. Upon seeing my situation, I knew I had to act and act fast, looking out upon the horizon, ABC market glided into sight, the future was before me.\nI started to lock my bike up outside the establishment, and was greeted by a very friendly lady who offered I take my bicycle into the safety of the building, I gladly took her up on this offer and proceeded inside. \nThe utilitarian nature of the dining room appealed to me as I browsed the extensive menu. \nI decided on the orange chicken and the crab Rangoon, both of which were excellent and exactly what I expected! They also went to the trouble to pack my food for transport on my bike, in smaller containers, which is a nice touch, good people here.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The ABC is a popular Chinese restaurant in Mexico City. It is located in the heart of the city's central business district. The restaurant is open on New Year's Day and is open 24 hours a day, seven days a week. The food is excellent and the service is friendly. The prices are reasonable for the quality of the food. The service is fast and the food is delicious. The best thing about the restaurant is the service.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"OK this is far from authentic or even good Chinese food, but it is what it is. It's fresh, tasty, and served hot and quickly. Nothing here is life changing, and it's not gonna make you slap yo Momma! But if you're in the hood and need a quick bite to eat, it will do in a pinch!\nThey also deliver which is a plus, and the portion sizes are surprisingly large. Plus this place has been around a long time.\nSo if your driving by and the mood for Americanized Chinese Food strikes you, stop in and grab a few dishes, it will do the job, and you won't leave hungry!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Nothing here is life changing, and it's not gonna make you slap yo Momma! But if you're in the hood and need a quick bite to eat, it will do in a pinch! They also deliver which is a plus, and the portion sizes are surprisingly large. Plus this place has been around a long time.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I think this place is great! Don't let the location and inside scared ya, the people are so nice! The food is amazing, my husband got the dinner Mongolian Beef and I got the Moo Goo Gai Pan. Not too salty and not too bland. The proteins were soft and chewy, really good! I would honestly come again. The price was $13 for 2 dinner meals that filled us up. Comes with an eggroll as well.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The food is amazing, my husband got the dinner Mongolian Beef and I got the Moo Goo Gai Pan. Not too salty and not too bland. The proteins were soft and chewy, really good! I would honestly come again.",
         "openai_analysis":{
 
         }
@@ -45,17 +255,127 @@
     "business_id":"47BUtVOXhP678iAO3_x1wg",
     "name":"Southern Comforts",
     "category_summary":{
-      "food":"The food received high praise for its flavor and variety, with standout dishes including ribs, yams, fried catfish, and cornbread. However, there were some criticisms regarding the mac and cheese and fried whiting, with a few customers expressing disappointment in certain dishes.",
-      "service":"Customers appreciated the friendly and welcoming service from both the chef and staff, often highlighting the personal touch and attentiveness. However, there was one negative experience reported regarding impatience from the chef.",
-      "atmosphere":"The restaurant is described as clean and cozy, with a cute decor that adds to the overall dining experience. However, it is currently takeout only due to COVID-19 restrictions.",
-      "noise":"There are no specific mentions of noise levels in the reviews, suggesting a generally pleasant dining environment.",
-      "seating":"Seating availability is not applicable at the moment as the restaurant is operating on a takeout-only basis due to COVID-19."
+      "food":"The food is consistently praised for its delicious flavors and generous portions, with standout dishes like ribs, mac and cheese, and cornbread receiving high marks. Some customers noted inconsistencies, particularly with certain items like mac and cheese and fried whiting, but overall, the menu offers a variety of well-prepared Southern cuisine.",
+      "service":"Service is generally described as friendly and welcoming, with many reviews highlighting the chef's kindness and the warm atmosphere created by the staff. However, there were a few negative experiences regarding staff attitude, particularly when inquiries were made about menu items.",
+      "atmosphere":"The restaurant's atmosphere is described as clean and cozy, with a cute decor that many patrons appreciate. While currently operating as takeout only due to COVID-19, customers look forward to dining in once restrictions are lifted.",
+      "noise":"Noise levels are not specifically mentioned in the reviews, but the overall tone suggests a comfortable dining experience without excessive noise distractions.",
+      "seating":"Seating availability is not applicable at this time as the restaurant is currently offering takeout only due to COVID-19 restrictions. Customers express eagerness for future dine-in options."
     },
     "individual_analyses":[
       {
         "review":"Stop what you are doing and go get RIBS with YAMS at Southern comfort's immediately. This food is absolutely amazing. My wife and I have ordered here on several occasions and have gotten equally amazing results each time. You get so many flavor layers and textures that it'a hard to say which part of the meal is best because it's all so good. \nThe RIBS have a moist thick meat that do not disappoint on size or flavor combined with the barbecue sauce that rivals some of the best around. It goes perfectly together and the sweetness of the YAMS gives a good offset of sweet with a tiny bit of subtle heat that comes through quite nicely.\nMy wife got a Ruben that had a flavorful crispy bread, fresh meats and a total package that would give your finest deli a run for its money.\n\nAs far as price point it really speaks volumes that you can get a big ass, man sized, watch out now meal, for half the cost I paid for my Chinese the other night regrettably. The value is there in these meals. Portion to dollar size is beyond what you'd expect and to get something so good for not a lot is the best.\n\nCan't wait to eat here again!",
         "hf_sentiment":"positive",
-        "hf_summary":"The RIBS have a moist thick meat that do not disappoint on size or flavor combined with the barbecue sauce that rivals some of the best around. The sweetness of the YAMS gives a good offset of sweet with a tiny bit of subtle heat that comes through quite nicely. The total package would give your finest deli a run for its money.",
+        "hf_summary":"The RIBS have a moist thick meat that do not disappoint on size or flavor combined with the barbecue sauce that rivals some of the best around. The sweetness of the YAMS gives a good offset of sweet with a tiny bit of subtle heat that comes through quite nicely. The value is there in these meals. Portion to dollar size is beyond what you'd expect and to get something so good for not a lot is the best. Can't wait to eat here again!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Awesome food and owners, support your local businesses! Ribs, Mac and Cheese and Stuffing platter for 11.50, so worth it.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Awesome food and owners, support your local businesses! Ribs, Mac and Cheese and Stuffing platter for 11.50, so worth it.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Stopped by for a takeout dinner the other night, really glad we did, food was excellent. Best Hush Puppies around, had a country fried steak that tasted just like it did in Texas, Mac and cheese super good, highly recommend this establishment for true good ole Southern food up here in SE PA!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Best Hush Puppies around, had a country fried steak that tasted just like it did in Texas. Mac and cheese super good, highly recommend this establishment.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"My husband and I just got take out food from here for the first time. We will definitely be return customers. So much delicious food for a great price and the Chef\/owner is super friendly and kind. 4\/4 rating. Plus the decor is super cute.",
+        "hf_sentiment":"positive",
+        "hf_summary":"4\/4 rating. So much delicious food for a great price and the Chef\/owner is super friendly and kind. Plus the decor is super cute.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"The food at this restaurant is delicious! The hostess was so warm and welcoming. The chef was amazing. I highly recommend a visit here.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The food at this restaurant is delicious! The hostess was so warm and welcoming. The chef was amazing. I highly recommend a visit here.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Ate there a few times. The first time we ate there, I asked if tgey had sweet tea. They said they did. I assumed a \"southern\" restaurant would have good sweet tea. They brought me Nestea radpberry tea from the soda fountain. Apparently, they are realky not familiar with southern cooking. Not impressed. But today finished it for me. They posted a very politically sensitive meme that really set the nail in their coffin for me. Shame on them!",
+        "hf_sentiment":"negative",
+        "hf_summary":"The first time we ate there, I asked if tgey had sweet tea. They said they did. They brought me Nestea radpberry tea from the soda fountain. Apparently, they are realky not familiar with southern cooking.",
+        "openai_analysis":{
+          "summary":"The reviewer was disappointed with the quality of sweet tea served and was further deterred by a politically sensitive meme posted by the restaurant.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I love cooking, but when I'm tired I look to take out or eat out where we can all get something healthy!  By that I mean good protein, good veggy sides as well!  We ordered 3 different things for our first time: pork ribs, salmon and meat loaf.  All were delicious and warm when we brought them home!! I look forward to ordering from there again. Everyone was so nice there too",
+        "hf_sentiment":"positive",
+        "hf_summary":"When I'm tired I look to take out or eat out where we can all get something healthy. By that I mean good protein, good veggy sides as well!  We ordered 3 different things for our first time: pork ribs, salmon and meat loaf. All",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This place is great! Chef Rich knows what he is doing and it is great to see someone trying to bring a different cuisine to the area. I'm so tired of mediocre Chinese and Pizza. Don't be intimidated by Southern Comforts being in an everyday regular shopping center. The food is awesome. I'm from the South and can vouch for what I had at this restaurant. \n\nPlate 1: fried catfish with black eyed peas and collared greens. Every part of this was spot on. The catfish was huge, nice flaky white meat, and a seasoned light batter crust... not an over-battered, over fried piece of air you will find at other places. The BE peas had a savory flavor  and needed nothing... I would crush those on a regular basis. The greens were pretty good and Chef Rich gave me his own concoction of hot vinegar for those interested.\n\nPlate 2: Country Fried Steak (with creamy white gravy) with Mac n cheese and corn. It's nice to finally have CFS or \"Chicken fried steak\" offered from somewhere other than a diner. There are two delicious fried steaks. If you are looking for a hearty filling item, this is it. If you are unsure of what this is, give it a try if you like steak, burgers, fried chicken.... the Mac n cheese was a 3\/5 as I thought a little seasoning could bring up to a 4\/5. The corn was 3\/5 bc it was sweet and simple, but too basic of a side (my fault). Maybe adding a little pepper, or even diced peppers to contrast the sweet corn could spruce it up. \n\nOn another note, this is a great place where you will be supporting the \"Little guy\", the small business owner trying to perfect their craft and provide for the public.\n\nI am so happy to find a restaurant other than Dairy Queen that has white southern gravy. I wish the NE would realize it can be much better than brown gravy all the dang time. One thing I hope the chef adds to the menu is fried okra!\n\nThe restaurant is clean and comfy however due to covid it is takeout only. I would call in and ask Chef Rich when to show up. He will even call you back when it is ready if you like.\n\nI will be going back soon for sure",
+        "hf_sentiment":"positive",
+        "hf_summary":"Don't be intimidated by Southern Comforts being in an everyday regular shopping center. I'm from the South and can vouch for what I had at this restaurant. The catfish was huge, nice flaky white meat, and a seasoned light batter crust... not an over-battered, over fried piece of air you will find at other places. The Mac n cheese was a 3\/5 as I thought a little seasoning could bring up to a 4\/5. The corn was sweet and simple, but too basic of a side (my fault). Maybe adding a little pepper, or even diced peppers to contrast the sweet corn",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"OMG the best chicken fried steak I've had since I lived in Missouri. The bass scallops melted in my mouth and the hush puppies added a tang to my dinner. The short ribs were tangy and delicious the pulled pork was not your average pulled pork it was awesome. The cornbread is to die for and the biscuits were  so light and fluffy that you felt like you weren't eating anything. We are so full we can't eat the dessert will make another review on desserts in a minute. The mac & cheese is Deliciously cheesy and creamy. The kids cheeseburger was cheesy and the french fries were delicious. The woman who met us at the door was so helpful she was going to carry our dinner to the car. The quaint shop would be so much fun to eat in after Covid is over.  The chocolate cake is moist and decadent. The carrot cake is delicious.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The cornbread is to die for and the biscuits were  so light and fluffy that you felt like you weren't eating anything. The mac & cheese is Deliciously cheesy and creamy. The kids cheeseburger was cheesy and the french fries were delicious. The chocolate cake is moist and decadent. The carrot cake is delicious.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I had been thinking about trying this place for months before I finally decided to do so today, May 29, 2021. I was hoping they would have baby back ribs (NOT spare ribs!) and fried okra. They had neither available at the moment, but I did order some of what were to me the more delicious options on their menu. Amazing!! Their's was easily the best cornbread I have ever had and I was disappointed that they gave me such a small square of it! Absolutely LOVED the black-eyed peas -- had never had such great black-eyed peas since my grandma from Oklahoma made them! Everything else I ordered was delicious too, including the candied yams and sweet corn on the cob. I foresee many more orders from this place. And when they start adding baby back ribs and fried okra, I might be there multiple times per week. Great place!",
+        "hf_sentiment":"positive",
+        "hf_summary":"I had been thinking about trying this place for months before I finally decided to do so today, May 29, 2021. I was hoping they would have baby back ribs (NOT spare ribs!) and fried okra. They had neither available at the moment, but I did order some of what were to me the more delicious options on their menu. Their's was easily the best cornbread I have ever had and I was disappointed that they gave me such a small square of it.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Just the fact that there is a local place that does Southern style cuisine in the area means Southern Comforts will be a success as long as they don't screw up this opportunity. Stick to traditional recipes, offer generous helpings and keep price within reason, and it will take off once Covid restrictions are in the rearview. \n\nIf my first exposure to their kitchen is any indication, they are on their way. They need to open their dining room to customers, and the rest is baked in. We ordered their \"Make Your Own\" dinners of 1) Country Fried Steak, roasted carrots & baked beans, and 2) Crab Cakes, bread stuffing, gravy and candied yams; with slice of carrot cake as shared dessert. It was all pretty darned good, except for the carrot cake. Allow me to elaborate. \n\nThe fried steak was a thin prefab ground patty, nicely fried and drowned in that white gravy. Nice texture and taste, with the gravy not too heavy on the tongue. The sides were a well made complement. Same with the crab cake. Crisp edges with crumbly crab with a little breading to bind them together, but with a dominant crustacean taste. We didn't use those little packages or tartar sauce, as there was enough flavor without them. The yams were sweet, but the bread stuffing was a bit dry and was not resuscitated by the gravy. Yet skipping the stuffing left a still very enjoyable meal. \n\nWord to the wise - Don't over sell a dessert that is past its prime. I was asked if I wanted dessert, and since it was brought to my attention, allowed myself to be upsold because I do love carrot cake as a general proposition. This wayward slice was the exception that proved the rule. It was smallish,  without much cake nor cream cheese icing. It was also noticeably dried out from too much shelf time. Definitely not the place to end a successful meal. It just wasn't worth the calories nor sugar kick. I don't mind being upsold when the product is worthwhile, but when it is a disappointment, it is self defeating. \n\nAlmost lost me there, but decided the rest of the meal was good enough to warrant partially overlooking that mistake. \n\n3.5 STARS",
+        "hf_sentiment":"positive",
+        "hf_summary":"The fried steak was a thin prefab ground patty, nicely fried and drowned in that white gravy. The sides were a well made complement. The crab cake was Crisp edges with crumbly crab with a little breading to bind them together. The yams were sweet, but the bread stuffing was a bit dry and was not resuscitated by the gravy. Word to the wise - Don't over sell a dessert that is past its prime. It just wasn't worth the calories nor sugar kick.3.5 out of 5 stars for the \"Make Your Own\" dinners. They need to open their dining room to customers",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I was looking forward to Southern cuisine, but was left wanting. The mac and cheese was extremely oily and lacked flavor along with the fried whiting. My inquiry on the amount of whiting that came with the meal, was met with annoyance, impatience, and eye rolling from the chef. The whiting had to be smothered with hot sauce to mask the frozen taste. As a lover of whiting and southern cuisine, I was highly disappointed. The two stars are for the candied yams and carrot cake. The carrot cake was AMAZING and it is the only thing I recommend. I will not return.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The mac and cheese was extremely oily and lacked flavor along with the fried whiting. The whiting had to be smothered with hot sauce to mask the frozen taste. The two stars are for the candied yams and carrot cake.",
+        "openai_analysis":{
+          "summary":"The reviewer was disappointed with the Southern cuisine, particularly the oily mac and cheese and frozen-tasting whiting, but praised the candied yams and carrot cake, ultimately deciding not to return.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Always delicious! Friendly staff! Consistent flavors.Biscuits are to die for! Can't wait to get back.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Always delicious! Friendly staff! Consistent flavors.Biscuits are to die for! Can't wait to get back.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Great takeout: Mac ''n' cheese, saut\u00e9ed cabbage, chicken cordon blue. And the corn bread!!!! Reasonable too and enjoyed chatting with one of the owners.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Great takeout: Mac ''n' cheese, saut\u00e9ed cabbage, chicken cordon blue. And the corn bread!!!! Reasonable too and enjoyed chatting with one of the owners.",
         "openai_analysis":{
 
         }
@@ -66,17 +386,113 @@
     "business_id":"HLNIVWxgdxsQnu0m6MUhWQ",
     "name":"Tired Hands General Store",
     "category_summary":{
-      "food":"The general store offers a selection of Tired Hands' signature beers, including cold 4 packs and unique bottled options. Customers rave about the quality of the coffee available, particularly the Awake Minds coffee.",
-      "service":"The staff is consistently described as friendly, knowledgeable, and welcoming, contributing to a pleasant shopping experience. Reviewers appreciate the helpfulness and professionalism of the employees.",
-      "atmosphere":"The store has a cool and unique vibe, with artistic merchandise that reflects the brand's identity. Customers enjoy browsing through the diverse selection of products in a relaxed environment.",
-      "noise":"No specific feedback on noise levels was mentioned in the reviews, suggesting a generally quiet shopping experience.",
-      "seating":"There is no mention of seating available in the store, as it primarily serves as a retail space for merchandise and beer."
+      "food":"The general store offers a selection of great coffee, particularly the Awake Minds coffee, which customers rave about. Additionally, the beer selection is praised, with many enjoying the unique and experimental brews available.",
+      "service":"Customers consistently highlight the friendly and knowledgeable staff, noting their helpfulness and pleasant demeanor. The service is described as professional and welcoming, contributing to a positive shopping experience.",
+      "atmosphere":"The store is described as cool and unique, with a nice layout that showcases the merchandise effectively. It has a quirky vibe similar to the Tired Hands bar, making it an enjoyable place to browse.",
+      "noise":"There are no specific mentions of noise levels in the reviews, suggesting that the atmosphere is generally calm and conducive to shopping.",
+      "seating":"Seating is not applicable to the general store, as it is primarily a retail space focused on merchandise and beer to go."
     },
     "individual_analyses":[
       {
         "review":"Great place to buy tired hands merchandise beer and glasses. Staff is very nice and knowledgeable about the products. Definitely a must see for beer lovers and tired hands fans.",
         "hf_sentiment":"positive",
-        "hf_summary":"Great place to buy tired hands merchandise beer and glasses. Staff is very nice and knowledgeable about the products. Definitely a must see for beer lovers and tired hands fans. Back to Mail Online home. back to the page you came from.back to the site you came From.",
+        "hf_summary":"Great place to buy tired hands merchandise beer and glasses. Staff is very nice and knowledgeable about the products.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"The women who work here are very nice. They have a great selection of shirts, stickers, glasses, etc. They have cold 4 packs available (right now was HopHands and a helles lager). The fridge was virtually full for a Saturday night. This was great because I saw on their Instagram they often sell out of HopHands cans.\n\nI absolutely love the art they use on their products. I wish I knew who the artist is! I just kind of wish everything on their website was available in-store and vice versa. There are some designs from the website I want but don't want to pay shipping for since I live closely.",
+        "hf_sentiment":"positive",
+        "hf_summary":"I absolutely love the art they use on their products. I wish I knew who the artist is! I just kind of wish everything on their website was available in-store and vice versa. There are some designs from the website I want but don't want to pay shipping for.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Living in Ardmore is Great, and win the addition of the general store it's so much greater! The general store offers TH lovers a nice selection of clothing , merchandise, and beer to go. I'm mostly writing this   This review for the awake minds coffee that is probably the greatest coffee I have ever had my life thus far",
+        "hf_sentiment":"positive",
+        "hf_summary":"The general store offers TH lovers a nice selection of clothing , merchandise, and beer to go. Living in Ardmore is Great, and win the addition of the general store it's so much greater!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"The General Store for Tired Hands was excellent. The layout was nice and they had plenty of merch to choose from.\n\nA cooler full cans and a wall of bottles was the main event, and had plenty for me to grab to take home to share with friends. A clipboard near the wall had detailed descriptions of everything, and there were a few taps pouring samples at the register.\n\nMy experience was pretty much \"grab and go\" so there's not much more to be said, but it was certainly pleasant and professional.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The General Store for Tired Hands was excellent. The layout was nice and they had plenty of merch to choose from. A clipboard near the wall had detailed descriptions of everything.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"When I first saw the tell tale art and signs of Tire Hands opening up a General Store in Ardmore it was kind of bittersweet for me, because I realized that my beloved brewpub was opening up a new chapter after I was getting ready to move away from it :(\n\nBut I was also ultimately happy because, between the uncanny draw of their special beer releases, and how niche & artsy the overall aspect of their merchandise is, it was something that made a lot of sense for them. Whenever I set foot into Fermenteria or Brew Cafe, I've always been enamored by the unique tshirts, hoodies, and glassware that I saw staring at me from the shelving and rafters. But in the busy restaurant and brewpub setting that almost always managed to become an afterthought for me.\n\nThat afterthought didn't happen to me as soon as I walked into the General Store, and came across t-shirts that I contemplated buying for OVER a year, coffee mugs alongside the Awake Minds coffee that Reanimator brews for them, ALL THE ARTISTIC GLASSWARE, and then some. So seeing all of those things brought to the forefront in this setting is obviously what the store is all about, and for that it definitely delivered a win.\n\nIf you've read my other reviews, followed my UnTappd checkins, or attended any of the the UYEs that I've hosted (5.0 coming in TBD 2018!), then you may know Tired Hands as a serious beer haven. But, while I may have seen a sampling of it when I looked upon their shelving and beer coolers, I also saw a lot to be desired compared to what I've indulged upon within either of their bars. True this may have been because I was there on Black Friday when every other beer store was winning out on Goose Island Bourbon Barrel Stouts. But still I expected to see more than their their standard beers like Hop Hands and Trendler Alt represented in their cans, and didn't see too many standout bottles this time around.\n\nBut still, with an ever changing lineup of forward thinking beers, and their main home brewery just a few blocks away, I expect to see this change upon other visits, and at least walk out with another bad ass t-shirt in the process.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Tired Hands is opening up a General Store in Ardmore, Oklahoma. The store will feature all of the unique tshirts, hoodies, and glassware that the brewpub has to offer. But the beer selection is lacking compared to what you can find in their bars. They have a great lineup of forward thinking beers, and their main home brewery is just a few blocks away. But they don't have too many standout bottles this time around, and I expect to see this change upon other visits, and at least walk out with another bad ass t-shirt in the process. They will also be opening a 5.0",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"TLDR: If you need Tired Hands merch and beer to go, check out the General Store.\n\nFor those in the Philly and Ardmore areas, I really envy the fact that Tired Hands is in your backyard. Tired Hands has amazing beer and it definitely lives up to the hype. If you're like a lot of craft beer nerds and need to add yet another brewery shirt to the wardrobe and another pint glass to the collection, you'll have the full selection at the Tired Hands General Store.\n\nAfter having some brews at the Fermentaria, make the three minute or so walk over to the General Store for your merch. The Fermentaria also has beer to go, but in case you forget to get some there, you can always get some here.\n\nIt's a small little shop, but it's definitely got more merchandise that I've seen at most other breweries, so there's a good selection for just about anybody. Shirts start at $20, which is about standard for almost brewery, and they aren't the cheap t shirt material either.\n\nThere's no limit on beer to go, and there's a No Limit Records picture posted right on the fridge to let you know that you get as much as you want. Service is great and I have no complaints about the staff.",
+        "hf_sentiment":"positive",
+        "hf_summary":"After having some brews at the Fermentaria, make the three minute or so walk over to the General Store for your merch. Shirts start at $20, which is about standard for almost brewery, and they aren't the cheap t shirt material either. There's no limit on beer to go, and there's a No Limit Records picture posted right on the fridge to let you know that you get as much as you want.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Such nice staff! I believe a friendly smile at the very least goes a long way. The two girls working the day I went in were very easy to talk to and nice. The store Is really cool and nothing like I have been in before . Will be back again soon!",
+        "hf_sentiment":"positive",
+        "hf_summary":"I believe a friendly smile at the very least goes a long way. The store Is really cool and nothing like I have been in before. Will be back again soon!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Great store. Fresh cans, glassware, shirts, and much more.  Plus TH samples while you shop!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Great store. Fresh cans, glassware, shirts, and much more.  Plus TH samples while you shop!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I love this shop. It's got really cool artwork (a lot of which appears on their merch), beer, stickers, glassware, buttons, etc. It's a cool place to just check out and browse through. I ended up purchasing their grim reaper shirt, which I loved, as well as a couple of bottles of beer. If you're in the area, I recommend adding Tired Hands as a destination since the fermentaria is also nearby (but not in the same location).",
+        "hf_sentiment":"positive",
+        "hf_summary":"The fermentaria is also nearby. Tired Hands is a cool place to just check out and browse through. I ended up purchasing their grim reaper shirt, which I loved, and a couple of bottles of beer.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"A great new addition! We stopped after spending a couple hours drinking and eating at the tired hands original. Picked up a few bottles of ourison and another saison variation. Great Merch - stickers, pins, shirts, etc. even carnivorous plants! Same quirky vibes as the bar. \n\nPro tip:\nIf you buy 4 750 ml bottles you get a free tired hands bottle tote and bottle opener!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Tired hands is a great new addition to the brewery. Great Merch - stickers, pins, shirts, etc. even carnivorous plants! Same quirky vibes as the bar.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I absolutely adore this general store. There is no pressure in buying anything here. The fact that they sell cool Tired Hands logo shirts here, it's so...enticing to buy because they all look pretty cool to wear. They have a lot of large bottled beer, mostly or all dry types of beer I believe. They have their signature canned beers in the fridge, easily available to grab. Sometimes if they have released some new canned beers, they'll have it in the fridge too, but check out their website to see if they are available in store because they only seem to carry a certain amount and then when it's gone... it's gone until they make more at another time. Wouldn't say they'd make it the next few weeks, the make different stuff every time. \nThe cashier that was there was very chill and nice, was welcoming. I used to be afraid to come into the store because I'm not huge of drinking alcohol, period, as I'm actually unable to really tolerate any (life, I know. How do I even live?), but I really enjoy Tired Hands' food and environment, so I just didn't wanna seem like a loser walking in. Just glad they have this store and it is right next to the actual Tired Hands bar. Not right next door, like the next one or two doors down, which is convenient for people to go to right after having a meal and a drink at Tired Hands.",
+        "hf_sentiment":"positive",
+        "hf_summary":"I absolutely adore this general store. There is no pressure in buying anything here. The fact that they sell cool Tired Hands logo shirts here, it's so...enticing to buy because they all look pretty cool to wear. They have a lot of large bottled beer, mostly or all dry types of beer I believe. The cashier that was there was very chill and nice, was welcoming. I used to be afraid to come into the store because I'm not huge of drinking alcohol, period, as I'm actually unable to really tolerate any.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"So unbelievably wonderful to have Alien Church and other available every day! Am impeccably run business hitting another homerun.",
+        "hf_sentiment":"positive",
+        "hf_summary":"So unbelievably wonderful to have Alien Church and other available every day! Am impeccably run business hitting another homerun.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I love this place. First off, incredible beer. All around. Their experimental frequency illusion series makes up most of my favorite beers in the world.\n\nThen there's the merch! Designs that take you for a ride, but looks great at the same time.\n\nThese folks are killin' it.",
+        "hf_sentiment":"positive",
+        "hf_summary":"These folks are killin' it. I love this place. Their experimental frequency illusion series makes up most of my favorite beers in the world.",
         "openai_analysis":{
 
         }
@@ -87,11 +503,11 @@
     "business_id":"OPhWuFj83RDS9O1qU21X8Q",
     "name":"Dunkin'",
     "category_summary":{
-      "food":"Customers have reported issues with food quality, including stale bagels and incorrect orders. Some items were not prepared as requested, leading to dissatisfaction with the food offerings.",
-      "service":"Service has been a major point of contention, with numerous complaints about rude and condescending staff, incorrect orders, and long wait times. Many customers feel that the friendliness and efficiency of the service have declined significantly.",
-      "atmosphere":"The cleanliness of the location has been questioned, with some reviews mentioning that the place doesn't seem clean. However, others noted that the inside is tidy with a few tables available.",
-      "noise":"There are no specific comments regarding noise levels in the reviews provided.",
-      "seating":"The restaurant has limited seating with about five tables available, which may not accommodate larger groups during busy times."
+      "food":"Customers have reported issues with food quality, including stale bagels and incorrect orders. Some items were not fresh, leading to dissatisfaction with the food offerings.",
+      "service":"Service quality has declined, with multiple complaints about rude and condescending staff. Many customers experienced incorrect orders and poor customer interactions, particularly at the drive-thru.",
+      "atmosphere":"The cleanliness of the location has been questioned, with some reviews indicating that the restaurant does not seem clean. Additionally, there are concerns about hygiene among staff.",
+      "noise":"No specific feedback regarding noise levels was mentioned in the reviews.",
+      "seating":"The restaurant has limited seating with about five tables available, but customers noted that it is generally quick to get served, even during busy times."
     },
     "individual_analyses":[
       {
@@ -99,8 +515,137 @@
         "hf_sentiment":"negative",
         "hf_summary":"Go there daily usually satisfied with product and service. I was forced to Deleat my dunkin app  the free coffee after an eagles win failed two times and employee said they were having roblems with the program. Even the perk rewards phase is in- op makes you feel like your there begging for free coffee due to their program not working.",
         "openai_analysis":{
-          "summary":"The reviewer is usually satisfied with the restaurant but is frustrated with the malfunctioning Dunkin app and the ineffective promotion for free coffee after Eagles wins.",
+          "summary":"The reviewer is usually satisfied with the restaurant but is frustrated with the malfunctioning rewards program and the inability to redeem free coffee offers after Eagles wins.",
           "issue_type":"Other",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"One of my fav DDs in town. This place is super busy, just because of the location. But yet staff is very friendly and super quick. Even on mornings when the drive thru line is wrapped around the block, it moves pretty quick. I do opt to go inside at times, which is equally as quick. The inside is clean, with about 5 tables. They have a highchair available if needed too. Usually I'm ordering 1-2 items, but when I've got a list, they always get the order correct.",
+        "hf_sentiment":"positive",
+        "hf_summary":"This place is super busy, just because of the location. But yet staff is very friendly and super quick. Even on mornings when the drive thru line is wrapped around the block, it moves pretty quick.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I use to love going here but service has severely fallen short recently. The food and drinks are still good. The problem comes with if you actually get what you ordered. Wrong drink and food given. When I come into the store to tell them of the issue I'm having they talk to me like I'm to dumb to understand what's going on. Even though they were the ones that handed me an order through the window with a girls name on it and not even close to my order. Don't be condescending toward your customers. The friendliness from this place is sorely lacking when it use to be one of the better places to go too. It's a shame.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The food and drinks are still good. The problem comes with if you actually get what you ordered. When I come into the store to tell them of the issue I'm having they talk to me like I'm to dumb to understand what's going on.",
+        "openai_analysis":{
+          "summary":"The reviewer expresses disappointment in the declining service quality, specifically regarding incorrect orders and condescending treatment from staff, despite still enjoying the food and drinks.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Service and coffee is not what it used to be. I went every morning on my way into work for the last year. Recently I've been driving further out of my way to ensure a better cup of coffee and that my order would actually be correct.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Service and coffee is not what it used to be. I went every morning on my way into work for the last year. Recently I've been driving further out of my",
+        "openai_analysis":{
+          "summary":"The reviewer is dissatisfied with the declining quality of service and coffee, leading them to seek alternatives.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"This place doesn't seem clean...\n\nAlso, per NJ.com, \"Health officials say anyone who patronized a Dunkin' in Turnersville between May 18 and June 1 may have been exposed to hepatitis A from a sick worker and should get vaccinated.\n\nWhile the risk of infection is low, anyone who ate or drank anything from the coffee shop at 460 Hurffville-Crosskeys Road between those dates could have been exposed to the virus and should get the vaccine \"out of an abundance of caution,\" the Gloucester County Health Department said in a release Friday.\"",
+        "hf_sentiment":"negative",
+        "hf_summary":"Health officials say anyone who patronized a Dunkin' in Turnersville between May 18 and June 1 may have been exposed to hepatitis A from a sick worker. While the risk of infection is low, anyone who ate or drank anything from the coffee shop at 460 Hurffville-Crosskeys Road should get the vaccine.",
+        "openai_analysis":{
+          "summary":"The reviewer expresses concerns about the cleanliness of the restaurant and mentions a potential hepatitis A exposure linked to a sick worker.",
+          "issue_type":"Cleanliness",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I really don't want a liver disease and I don't want anyone else who might consider going here to get it too. Please listen to my warning, this is serious.",
+        "hf_sentiment":"negative",
+        "hf_summary":"\"This is serious. I really don't want a liver disease,\" he says. \"Please listen to my warning\"",
+        "openai_analysis":{
+          "summary":"The reviewer warns against the restaurant due to serious health concerns, specifically the risk of liver disease.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Got some bagels there today. They were out of plain bagels, and about a week ago they didn't have plain bagels and said their oven is down. I ordered 3 sesame and 3 cinnamon raisin. They were stale and rock hard, and one was everything instead of cinnamon raisin. These bagels were not made today, they are day old at least. Maybe they are getting old bagels from another store if their ovens aren't working and selling them. I have had many other problems with wrong orders and poorly made food. After this I'm not going back.",
+        "hf_sentiment":"negative",
+        "hf_summary":"I ordered 3 sesame and 3 cinnamon raisin. They were stale and rock hard. Maybe they are getting old bagels from another store if their ovens aren't working. After this I'm not going back.",
+        "openai_analysis":{
+          "summary":"The reviewer experienced repeated issues with stale bagels, incorrect orders, and poor food quality, leading to a decision not to return.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"a minute ago\n\nWent to Dunkin in Turnersville store 335973. Horrible customer service, girl over speaker very rude and impatient. Also the bagel minis 2 small round bagels barely filled with cream cheese $2.69 plus tax, wish could get money back-wasn't that good and definitely not worth it. $1.35 per very tiny bagel before tax, wayyyyy overcharged.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Went to Dunkin in Turnersville store 335973. Horrible customer service, girl over speaker very rude and impatient. Also the bagel minis 2 small round bagels barely filled with cream",
+        "openai_analysis":{
+          "summary":"The reviewer experienced rude customer service and found the bagel minis overpriced and unsatisfactory.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Horrible customer service at the drive thru. I did not get the young girls name but she had a very poor attitude. Clearly does not like her job. She argued with me because I wanted to pick out my donuts. I will not be returning to this Dunkin location.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Horrible customer service at the drive thru. She argued with me because I wanted to pick out my donuts. I will not be returning to this Dunkin location.",
+        "openai_analysis":{
+          "summary":"The reviewer experienced poor customer service at the drive-thru, specifically due to a rude employee's attitude and refusal to allow donut selection.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Horrible service on Sunday March 14th around 2pm. Ordered two bagels with cream cheese toasted. They didn't toast, didn't add cream cheese and forgot other items. The workers seemed clueless and looked like they could use a hygiene class",
+        "hf_sentiment":"negative",
+        "hf_summary":"Horrible service on Sunday March 14th around 2pm. Ordered two bagels with cream cheese toasted. They didn't toast,",
+        "openai_analysis":{
+          "summary":"The reviewer experienced poor service with their order being incorrect and the staff appearing unprofessional.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"This Dunkin never fails to disappoint. Seeeeveral times I've gone to the drive thru and no one even takes my order. How can you not notice someone's at the drive thru 5+ times?? And they were open each time. One time I ordered a medium iced coffee and got a small hot chocolate lol. There wasn't even anyone else in line. They take forever and they never get the order right (if I even get to order\u200d)  worst DD I've ever been to",
+        "hf_sentiment":"negative",
+        "hf_summary":"This Dunkin never fails to disappoint. Seee several times I've gone to the drive thru and no one even takes my order. One time I ordered a medium iced coffee and got a small hot chocolate lol. There wasn't even anyone else in line.",
+        "openai_analysis":{
+          "summary":"The reviewer expresses frustration with poor service at the drive-thru, including long wait times and incorrect orders.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I'm pretty sure my review is of the same girl everyone else is complaining about at this location. She is the absolute rudest thing ever! It's a shame because the young guy who works there is very nice. When I pulled up to the window after placing my order with her, I gave the guy my card and he handed me it back with my one drink and snacking bacon. I told him I had ordered another ice coffee (the reason I stopped here). And he punched in my drink order.. But before saying anything else, The girl who took the order starts going off \"she didn't order that...no she didn't order that\". I said, \"is she for real?\" She again goes louder \"she didn't order that!\". So I said \"Hi...I can hear you and I did\". She continued to say I didn't. Had my child not been in the car i would have sat there and had the fun back and fourth with her. Im not the type to \"rise above\" a situation and walk away. No...she wanted to say that and then me be like \"oh wow...she is so right...I must have said that order in my head while looking at the screen and leaning out my window to the speaker\" Anyway the guy told me they are short staffed and told me the total for my drink. I said I will not be drinking anything made by her and left.",
+        "hf_sentiment":"negative",
+        "hf_summary":"I'm pretty sure my review is of the same girl everyone else is complaining about at this location. She is the absolute rudest thing ever! It's a shame because the young guy who works there is very nice. Had my child not been in the car i would have sat there and had the fun back and fourth with her. She wanted to say that and then me be like \"oh wow...she is so right...I must have said that order in my head while looking at the screen and leaning out my window to the speaker\"",
+        "openai_analysis":{
+          "summary":"The reviewer had a negative experience due to rude service from a female employee, despite positive interactions with a male employee, leading them to refuse a drink made by her.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I went there today at 10:22am I orderd two drinks. When I recieved my one drink I noticed the sticker didn't say caramel so I asked if it had caramel and the girl who took the order replied \"you didn't say caramel but I guess I'll add it\" she was beyond rude and when I asked for her name and a manager she said have a good day and closed the drive thru window. I tried calling the location immediatley but the phone would ring and ring and then disconnect.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The girl who took the order replied \"you didn't say caramel but I guess I'll add it\" when I asked for her name and a manager she said have a good day and closed the drive thru window. I tried calling the location immediatley but the phone would ring and ring and then disconnect.",
+        "openai_analysis":{
+          "summary":"The reviewer experienced rude service when their drink order was incorrect and was unable to speak to a manager after the staff member closed the drive-thru window.",
+          "issue_type":"Service",
           "priority":"High",
           "sentiment":"negative"
         }
@@ -111,19 +656,130 @@
     "business_id":"ZD4pn3wsNh1EnXF3GuNQEg",
     "name":"Chicken Holiday",
     "category_summary":{
-      "food":"The fried chicken is highly praised, with many reviewers calling it some of the best they've had, noting its crispy coating and fresh flavor. Other menu items like honey wings, ribs, and shrimp also receive positive mentions, although some reviewers caution against ordering fish.",
-      "service":"The service is generally described as friendly and accommodating, with some customers highlighting the helpfulness of the staff. However, there are occasional complaints about order accuracy and responsiveness, particularly regarding phone orders.",
-      "atmosphere":"The atmosphere is not a primary focus, with several reviewers indicating that it is not a place for dining in, but rather for takeout. Some mention the owner as entertaining, contributing positively to the experience.",
-      "noise":"Noise levels are not specifically mentioned in the reviews, suggesting that it may not be a significant factor in the dining experience.",
-      "seating":"Seating is not emphasized in the reviews, with many suggesting that takeout is the preferred option rather than dining in."
+      "food":"The fried chicken is highly praised, with many reviewers calling it some of the best they've ever had. Other items like honey wings, ribs, and shrimp also receive positive mentions, though there are some complaints about the flounder and inconsistencies in freshness.",
+      "service":"Service is generally described as friendly and accommodating, with some positive interactions noted. However, there are occasional frustrations with order accuracy and wait times.",
+      "atmosphere":"The restaurant is recommended primarily for takeout rather than dining in, with no significant emphasis on ambiance. Some reviewers mention a friendly and entertaining owner.",
+      "noise":"Noise levels are not specifically addressed in the reviews, suggesting that it may not be a notable factor.",
+      "seating":"Seating is not emphasized in the reviews, indicating that the restaurant may not be ideal for a sit-down meal."
     },
     "individual_analyses":[
       {
         "review":"When we moved to the area, we would occasionally pass this place or see a flyer or ad, and joke: \"Chicken Holiday. Well, doesn't sound like much of a holiday for the chicken!\" [yuk, yuk, yuk]... and we kinda wrote it off.\n\nAnd what a stupid thing to do. This past week we were at a picnic, and had what I really thought was some of the best fried chicken I've tasted in a long time. [you see it coming...]\n\nMe: \"Man, this is incredible fried chicken, where is it from?\"\nHost: \"Chicken Holiday, over on Olden.\"\nMe: \"Really? Wow! It's great!\"\nHost: \"Yeah, they do a great job.\"\n\n[Pause. Taking a bite of chicken]\n\nMe: \"I guess it's not much of a holiday for the chicken.\"\nHost: [exhales beer through nose]\n\nRecommended for take out, not a place you really want to sit down and eat. Still, freaking sign me up. I love fried chicken, and this is the best in the area unless you want to drive up to It's Nutts.\n\nFour stars not for ambience or service, but for serving damn good fried chicken. Cole slaw is also amazing. Avoid the fish.",
         "hf_sentiment":"positive",
-        "hf_summary":"Four stars not for ambience or service, but for serving damn good fried chicken. Cole slaw is also amazing. Avoid the fried chicken place. It's not a place you really want to sit down and eat, but still, freaking sign me up. If you want to drive up to It's Nutts, don't go there.",
+        "hf_summary":"Four stars not for ambience or service, but for serving damn good fried chicken. Cole slaw is also amazing. Avoid the fish. It's not a place you really want to sit down and eat. Still, freaking sign me up. I love fried chicken, and this is the best in the area unless you want to drive up to It's Nutts and have some.",
         "openai_analysis":{
 
+        }
+      },
+      {
+        "review":"The honey wings here are awesome if made fresh some times one of the brothers is lazy and will get you wings from under the heating lamp that doesn't heat. \n\nThe chicken, shrimp & ribs are all awesome too! \n\nJust make sure them honey wings are fresh!",
+        "hf_sentiment":"positive",
+        "hf_summary":"The honey wings here are awesome if made fresh some times one of the brothers is lazy and will get you wings from under the heating lamp that doesn't heat. The chicken",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Probably the best barbecue wings in the area. And I absolutely LOVE chicken. The staff are good guys, and you will be back for more",
+        "hf_sentiment":"positive",
+        "hf_summary":"Probably the best barbecue wings in the area. And I absolutely LOVE chicken. The staff are good guys, and you will be back for more",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Good quality chicken cooked fresh to order. Better flavored chicken than the other local joints, super friendly service, great owner. The place has been running for 30 years and there is a reason for that.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Good quality chicken cooked fresh to order. Better flavored chicken than the other local joints. Super friendly service, great owner.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Family owned, friendly, amazing service. Chicken was fantastic. If I could give more than 5 stars I would!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Family owned, friendly, amazing service. Chicken was fantastic. If I could give more than 5 stars I would!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Nope. Nope. and Nope. Asked for a suggestion and was told I could do no wrong. So I went with the flounder. It was frozen and ordered in bulk and then deep fried. I should have guessed it would be but it was my fault for not asking. Or maybe I should have just gone with the chicken. Regardless...nope. I won't be back.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Frozen and ordered in bulk and then deep fried. Asked for a suggestion and was told I could do no wrong. So I went with the flounder.",
+        "openai_analysis":{
+          "summary":"The reviewer had a negative experience with the frozen flounder they ordered after receiving vague suggestions from the staff.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"The chicken is amazing and the tender ribs been going there for over 30 years  Jimmy and his brother John still there all those years.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The chicken is amazing and the tender ribs been going there for over 30 years  Jimmy and his brother John still there all those years.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Look I am from the south. I know good fried chicken. Friends let me tell you, this fried chicken is legit. The crispy coating is something to admire. It is flavorful and fresh. I can't believe I'm going home to Georgia and telling people that I had some of the best fried chicken ever, in New Jersey. The owner is also very entertaining. Great food and great atmosphere.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The crispy coating is something to admire. It is flavorful and fresh. The owner is also very entertaining. Great food and great atmosphere.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Strange, couldn't find a menu online so I called to find out bulk sizes for wing orders.  Asked about flavors and he said can't go wrong with the buffalo.  I mentioned honey just guessing and he said \"ya ya but you can't go from wit buffalo\"\n\nCome to find out later they have several flavors.  Appears he was too lazy to want to make them.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Can't find a menu online so I called to find out bulk sizes for wing orders. Asked about flavors and he said can't go wrong with the buffalo. Appears he was too lazy to want to make them.",
+        "openai_analysis":{
+          "summary":"The reviewer had difficulty obtaining information about wing flavors over the phone and felt the staff was unhelpful and lazy.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"was there tonight\ngot a simple order of two snacks\nwife's was ok but they screwed u my fillet of flounderr snack\ngot the side wrong\nnot first time they have screwed up\nonly go there when my wife want jumbo shrimp snack",
+        "hf_sentiment":"negative",
+        "hf_summary":"wife's was ok but they screwed u my fillet of flounderr snack. got the side wrong. Not first time they have screwed up.",
+        "openai_analysis":{
+          "summary":"The reviewer experienced multiple order mistakes during their visit, particularly with their fillet of flounder snack, and only visits the restaurant due to their wife's preference for another dish.",
+          "issue_type":"Food Quality",
+          "priority":"Medium",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I definitely will give Chicken Holiday another chance. I tried to call in my order numerous times and never seemed to get through. I decided maybe their phones were down or maybe the number was outdated. I drove down here to get some chicken and the first thing the guy asks me is \"did you call in an order?\" and when I said \"no\" he said that I'd have to wait 15 min. Which was fine but slightly frustrating when I did attempt to call in an order. I confirmed that the number I was calling was the correct one. \n\nThe food itself was pretty good. Not the best chicken I've ever had but for the price and all things considered it was pretty good!\n\n I've also heard that other Chicken Holiday locations are better but I can't verify this.",
+        "hf_sentiment":"negative",
+        "hf_summary":"I tried to call in my order numerous times and never seemed to get through. Not the best chicken I've ever had but for the price and all things considered it was pretty good! I've also heard that other Chicken Holiday locations are better but I can't verify this.",
+        "openai_analysis":{
+          "summary":"The reviewer had trouble calling in an order, experienced a wait time upon arrival, found the food satisfactory but not exceptional, and noted that other locations may be better.",
+          "issue_type":"Service",
+          "priority":"Medium",
+          "sentiment":"neutral"
+        }
+      },
+      {
+        "review":"We are new in town and have been driving past all week so tonight my family had to try it. We were not disappointed. Everything was so great and the man who took my phone order was awesome and promised some of the best food I've ever had. He wasn't wrong! We tried chicken breasts, chicken fingers, Buffalo wings, mozzarella sticks and ribs. I can't pick a favorite. We will absolutely be back!",
+        "hf_sentiment":"positive",
+        "hf_summary":"\"We were not disappointed. Everything was so great and the man who took my phone order was awesome and promised some of the best food I've ever had,\" says customer.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Just ordered a 16 piece fried chicken bucket from Chicken Holiday on Olden Avenue Extension in Ewing, NJ. After calling it in, I drove there on my way home, and arrived just as it was coming out of the pressure fryer. It looked dark bronze and the odor of the steam being released went right to my head, and made me feel a bit intoxicated. \n\nNothing wrong with that!\n\nI watched as the cook removed the chicken and transferred it to an aluminum tray for safe travel. I counted the pieces with him, and think my package carried 17 total. I appreciated the extra generosity. He then wrapped the tray in foil, and tore open the top dome to allow the condensation to escape. In turn, that was placed in a heavy gauge brown paper sack, and again split open at the top for additional moisture release. \n\nBy the time I arrived home, I was nearly overcome by the aroma enveloping the car. I decided to sample a wing while still hot and wait for the family before consuming more. First bite encountered crisp skin, followed by warm white meat and a pleasant clean oil fried chicken flavor. I nibbled and sucked all the meat from them bones, and I selfishly considered grabbing a plump breast for a long moment. \n\nNah! It would be more fun to indulge with the fam. So, I waited. \n\nAn hour later we were sitting around the kitchen table with sides of homemade mashed potatoes and green salad as excellent complementary pieces to a very happy meal. \n\nA star is missing because truth be told, the chicken was a tad overdone. A lighter golden copper finish would have made it perfect. Turns out that as much as I love the color bronze, it is past prime when it comes to fried chicken excellence. Still very good texture and taste, but with a subtle aftertaste that missed the mark. \n\nIn fried chicken, even a seconds can make a big difference.",
+        "hf_sentiment":"neutral",
+        "hf_summary":"Chicken Holiday is located on Olden Avenue Extension in Ewing, NJ. The fried chicken is served in a 16 piece bucket. A star is missing because truth be told, the chicken was a tad overdone. A lighter golden copper finish would have made it perfect. Still very good texture and taste, but with a subtle aftertaste that missed the mark. It would be more fun to indulge with the fam, so, I waited. An hour later we were sitting around the kitchen table with sides of homemade mashed potatoes and green salad as excellent complementary pieces to a very happy meal. The chicken was very good, but the after",
+        "openai_analysis":{
+          "summary":"The reviewer enjoyed the freshly cooked fried chicken from Chicken Holiday but noted that it was slightly overdone, affecting the overall experience.",
+          "issue_type":"Food Quality",
+          "priority":"Medium",
+          "sentiment":"positive"
         }
       }
     ]
@@ -132,21 +788,150 @@
     "business_id":"__2LkeVwTuKar5AE95Idzw",
     "name":"McDonald's",
     "category_summary":{
-      "food":"The food quality is inconsistent, with several complaints about undercooked burgers and incorrect orders. Customers have also reported missing items and receiving the wrong food altogether.",
-      "service":"Service is frequently criticized for being slow and unresponsive, with many instances of wrong orders and rude staff. Customers have expressed frustration over the lack of accountability from management.",
-      "atmosphere":"The atmosphere is described as uninviting, with staff appearing disengaged and slow. Some customers noted the presence of a nearby 7-11, contributing to a less favorable perception of the location.",
-      "noise":"There are no specific mentions of noise levels in the reviews, but the general dissatisfaction with service may imply a chaotic environment.",
-      "seating":"Seating issues were not explicitly mentioned, but there are complaints about the overall dining experience, suggesting that customers may not feel comfortable or satisfied while waiting for their orders."
+      "food":"Customers frequently report issues with incorrect orders, including undercooked items and missing components. There are complaints about the quality of food, with some experiencing cold meals and incorrect items being served.",
+      "service":"Service is consistently criticized for being slow and unhelpful, with many reviews highlighting rude staff interactions and a lack of accountability. Customers have experienced long wait times and incorrect orders, leading to frustration.",
+      "atmosphere":"The atmosphere is described as uninviting, with some customers noting the slow movement of staff and a general lack of urgency. The presence of a nearby 7-11 is mentioned, contributing to a sketchy impression.",
+      "noise":"No specific feedback regarding noise levels was provided in the reviews.",
+      "seating":"No specific feedback regarding seating arrangements or comfort was provided in the reviews."
     },
     "individual_analyses":[
       {
         "review":"Open 24 hours, and next to a sketchy 7-11.  As with all McDonald's, you get what you pay for.  \"Meat\" and HFCS at any time, day or night.",
         "hf_sentiment":"negative",
-        "hf_summary":"Open 24 hours, and next to a sketchy 7-11. As with all McDonald's, you get what you pay for. \"Meat\" and HFCS at any time, day or night. The restaurant is located on the corner of Main Street and Broadway in New York.",
+        "hf_summary":"Open 24 hours, and next to a sketchy 7-11.  As with all McDonald's, you get what you pay for.  \"Meat\" and HFCS at any time, day or night.",
         "openai_analysis":{
-          "summary":"The restaurant is open 24 hours and is located next to a questionable 7-11, offering low-quality food typical of McDonald's.",
+          "summary":"The restaurant is open 24 hours and located next to a questionable 7-11, offering low-quality food typical of McDonald's.",
           "issue_type":"Food Quality",
           "priority":"Medium",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Awful service... ALWAYS the wrong order. How many untrained, non-caring employees can one location hire. Every order is missing items. Maybe that is the plan, save money by not filling the entire order knowing that once someone drives away they very likely wont return to get the food. How much can one location save in a year by shorting every order just a few bucks. As a corporation knowing this location is in an affluent area you would think they would step up the surveillance and correct the problems. Avoid this location!!!!",
+        "hf_sentiment":"negative",
+        "hf_summary":"Every order is missing items. How much can one location save in a year by shorting every order just a few bucks. As a corporation knowing this location is in an affluent area you would think they would step up the surveillance and correct the problems.",
+        "openai_analysis":{
+          "summary":"The reviewer expresses frustration over consistently receiving the wrong orders and poor service at the restaurant, suggesting a deliberate strategy to save money by shorting orders.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Ok so I just relocated to this area and its walking distance from home. I like to take my kids for a walk and get a ice cream and food sometimes. Well they were on a roll with getting my order correct finally someone understood what \"NO CHEESE\" was. Well this last time I went my order was wrong and I let the worker know and she apologized and let the kitchen know. They redid my burger but again put cheese. I let her know again and as in standing there the kitchen manager said \"its wrong again? Ugh make her wait\" mind you I am standing at the counter. So about 3-4 min later I finally get my burger. The lady who took my order apologized and said have a great day but what she forgot were my ice creams I had also ordered. Mind you I was already at the counter and waiting for my complete order for about 10min now. I was supper annoyed by that point and most likely went be returning.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The last time I went my order was wrong and I let the worker know and she apologized and let the kitchen know. They redid my burger but again put cheese. I let her know again and as in standing there the kitchen manager said \"its wrong again? Ugh make her wait\" So about 3-4 min later I finally get my burger. The lady who took my order apologized and said have a great day but what she forgot were my ice creams I had also ordered.",
+        "openai_analysis":{
+          "summary":"The reviewer experienced repeated issues with their order, specifically with cheese being added to a burger that was supposed to have none, and they also did not receive their ice creams after a long wait, leading to frustration and a decision not to return.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"OMG.\nSlowest McDonald's I have ever visited.\nStaff was milling around like the Walking Dead in slo mo - truly don't know how a person can move that slowly!",
+        "hf_sentiment":"negative",
+        "hf_summary":"OMG.\nSlowest McDonald's I have ever visited.\nStaff was milling around like the Walking Dead in slo mo - truly don't know how a person can move that slowly!",
+        "openai_analysis":{
+          "summary":"The reviewer experienced extremely slow service at McDonald's, comparing the staff's movement to that of zombies.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"We went into this McDonald's with my family and they had us use the kiosk. We waited about 20 min and saw our number was not even listed. We asked and they said it never went through to them but we were charged for it. So they put it in the system and it took another 15 min to get our food. We had it all to go. We got in the car and started handing out food and ended up with a whole extra bag of food that wasn't ours! Get it together McDonald's",
+        "hf_sentiment":"negative",
+        "hf_summary":"We went into this McDonald's with my family and they had us use the kiosk. We waited about 20 min and saw our number was not even listed. We asked and they said it never went through to them but we were charged for it. So they put it in the system and it took another 15 min to get our food. We had it all to",
+        "openai_analysis":{
+          "summary":"The family experienced a long wait time at McDonald's due to a kiosk order issue, resulting in being charged for an order that didn't go through and receiving an extra bag of food that wasn't theirs.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"This is the worst McDonalds ever. The staff, especially Cici (The Manager) She was very rude to us after we complained about pretty much everything, considering everything was messed up. It took over 25 minutes to get our food. I went up to the counter and complained about it and she said that she called us 10 minutes ago but no one heard anything. Once we got the food, it was cold and my friends order was messed up, and his dad never got his coffee, he complained about that and Cici was arrogant and said we placed a to-go order when we got a table number and the reciept never said that it was a \nto-go order. also when she kicked us out she said to leave the food, that we paid for, at the table and she called the cops on us for nothing. instead of owning up to her mistakes she pointed the finger at us she blamed everything on us and didn't even apologize to us. there was also a person next to us that had a similar experience and he left the building fuming and didn't even get the coffee he paid for. luckily there is a wendy's next door, i know who will be getting my future business",
+        "hf_sentiment":"negative",
+        "hf_summary":"This is the worst McDonalds ever. The staff, especially Cici (The Manager) She was very rude to us after we complained about pretty much everything, considering everything was messed up. It took over 25 minutes to get our food. When she kicked us out she said to leave the food, that we paid for, at the table and she called the cops on us for nothing. luckily there is a wendy's next door, i know who will be getting my future business.",
+        "openai_analysis":{
+          "summary":"The reviewer had a very negative experience at McDonald's due to rude staff, long wait times, cold food, incorrect orders, and poor customer service from the manager, Cici.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Ordered here through DoorDash. The burgers were all undercooked and almost raw. Buns were actually bloody on two of them. When we called to let them know they hung up on us.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The burgers were all undercooked and almost raw. Buns were actually bloody on two of them. When we called to let them know",
+        "openai_analysis":{
+          "summary":"The burgers were undercooked and bloody, and the restaurant hung up when contacted about the issue.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"So i stopped in at 10:40 to get a 2 for 4 breakfast,  i ordered the sandwiches and the woman manager said oh u ordered the sausage and the special is only with bacon, like i care what meat. It cost me 9.80 with a bottle water, really?? Also it says breakfast, well the sign does not have hours posted on it....so ten minutes past 10:30? I walked away pissed, the manager should have given me the sale price or got me the one with bacon. Terrible customer service. D, i frequent this Md all the time.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The manager should have given me the sale price or got me the one with bacon. It cost me 9.80 with a bottle water, really?? Also it says breakfast, well the sign does not have hours posted on it.",
+        "openai_analysis":{
+          "summary":"The reviewer had a negative experience due to confusion over breakfast sandwich options, lack of posted hours, and poor customer service from the manager.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Granted it is fast food, but you've worked hard and now you are hungry and you expect it to be what you've ordered. I'm not sure why it is so hard to get the order right. I have been to the McDonald's 4 to 5 times in the last month and it each time something is WRONG. I'm done!!! There are other fast food chains in the area.",
+        "hf_sentiment":"negative",
+        "hf_summary":"I have been to the McDonald's 4 to 5 times in the last month and it each time something is WRONG. Granted it is fast food, but you've worked hard and now you are hungry and you expect it to be what you've ordered.",
+        "openai_analysis":{
+          "summary":"The reviewer is frustrated with repeated incorrect orders at McDonald's and is considering switching to other fast food options.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"I've only had good experiences at this franchise so far! Food is usually hot\/warm and I have not experienced any food poisoning like at another McDonald's I used to go to.\nCustomer service is okay. It's not bad but it's not exceptional. I frequent the drivethru only since the pandemic.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Customer service is okay. Food is usually hot\/warm and I have not experienced any food poisoning like at another McDonald's I used to go to. I frequent the drivethru only",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"We were waiting in line from 10:23 to 10:28. We pull up and the menu is still breakfast (duh because they stop serving at 10:30). We proceed to order and she informs us that now they're serving lunch. We say how it's not 10:30 and the MENU even still says breakfast, what do they do? Change it while we're in line lol not the first time we've had this problem at this location",
+        "hf_sentiment":"negative",
+        "hf_summary":"We were waiting in line from 10:23 to 10:28. We pull up and the menu is still breakfast (duh because they stop serving at 10:30). We proceed to order and she informs us that now they're serving lunch. We say how it's",
+        "openai_analysis":{
+          "summary":"The reviewer experienced confusion and frustration over the menu changing from breakfast to lunch while they were in line, despite the breakfast menu still being displayed.",
+          "issue_type":"Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"We never receive the toy for the happy meal that is advertised. Always get some toy that they had like a year ago. They need to get it together with whoever is in charge of inventory. Kid is always disappointed.",
+        "hf_sentiment":"negative",
+        "hf_summary":"We never receive the toy for the happy meal that is advertised. Always get some toy that they had like a year ago. They need to get",
+        "openai_analysis":{
+          "summary":"The reviewer is frustrated that their child never receives the advertised toy with the happy meal, leading to disappointment.",
+          "issue_type":"Other",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"asked for only onions on my burgers and only got ketchup! gave me water instead of sprite!",
+        "hf_sentiment":"negative",
+        "hf_summary":"asked for only onions on my burgers and only got ketchup! gave me water instead of sprite!",
+        "openai_analysis":{
+          "summary":"The reviewer received the wrong toppings on their burger and was given water instead of Sprite.",
+          "issue_type":"Food Quality",
+          "priority":"High",
           "sentiment":"negative"
         }
       }
@@ -156,17 +941,119 @@
     "business_id":"kvt7lGaRArkeDbw5eCZP8w",
     "name":"Mr. Eds seafood and oyster Bar",
     "category_summary":{
-      "food":"The food received mixed reviews; many praised the freshness and taste of dishes like oysters, shrimp, and crawfish, while others criticized specific items like crab cakes and jambalaya. Overall, the menu offers a variety of seafood options and desserts that customers enjoyed.",
-      "service":"Service was a significant point of contention, with several reviews highlighting both excellent and poor experiences. While some servers received praise for their attentiveness and friendliness, others faced criticism for being inattentive or slow, leading to a frustrating dining experience.",
-      "atmosphere":"The restaurant is described as casual and family-friendly, with a nice decor that contributes to a welcoming environment. It is located in the French Quarter, making it a convenient stop for locals and tourists alike.",
-      "noise":"Noise levels were not specifically mentioned in the reviews, suggesting that it may not be a significant issue during dining.",
-      "seating":"Seating arrangements were not discussed in detail, but the restaurant appears to accommodate families and larger groups comfortably."
+      "food":"The food received mixed reviews, with many praising the freshness and taste of dishes like oysters, shrimp po' boys, and alligator appetizers. However, some customers reported disappointment with specific items like crab cakes and jambalaya.",
+      "service":"Service quality varied significantly; while some reviewers highlighted exceptional service from specific servers, others experienced poor service, including slow drink orders and inattentive waitstaff.",
+      "atmosphere":"The restaurant is described as casual and family-friendly, with a nice decor that contributes to a welcoming environment.",
+      "noise":"There were no specific mentions of noise levels in the reviews, indicating that it may not be a significant concern for patrons.",
+      "seating":"Seating arrangements were not specifically addressed in the reviews, but the restaurant appears to accommodate families and groups comfortably."
     },
     "individual_analyses":[
       {
         "review":"Brand new location. Brand new menu items. Same great service you expect from Mr Ed's Seafood and Oyster Bar NOW OPEN at 821 Iberville in the heart of the French Quarter. Fantastic menu options like Oysters on the half shell, Oyster Rockefeller, jumbo friend shrimp or fish, and Crawfish & Crab Cakes, just to name a few.  Save room for dessert,  but with options like Banna Fosters Creme Pie, Bread Pudding, and Chocolate Mousse, it's almost impossible to decide.  It's a casual, family friendly restaurant, open 11am-10pm  Sun-Thurs, 11am-11pm Fri. & Sat (subject to change).\nYou'll appreciate the large selection of local beers on tap, and their custom mixed cocktails are always on point. My favorite is Debbie's Fruit Punch, you've got to check it out. \nIt's seriously good.",
         "hf_sentiment":"positive",
         "hf_summary":"Mr Ed's Seafood and Oyster Bar is now open at 821 Iberville in the heart of the French Quarter. Fantastic menu options like Oysters on the half shell, Oyster Rockefeller, jumbo friend shrimp or fish, and Crawfish & Crab Cakes. Save room for dessert,  but with options like Banna Fosters Creme Pie, Bread Pudding, and Chocolate Mousse.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Chips are okay. Cold water. Spinach artichoke dip was good. Those were the positives.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Chips are okay. Cold water. Spinach artichoke dip was good. Those were the positives.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Walked in by accident. Had great service! Our server, Cassie recommended the blackened alligator appetizer and it was fantastic!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Walked in by accident. Had great service! Our server, Cassie recommended the blackened alligator appetizer and it was fantastic!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"These are the best oysters I've ever had! The service was good and all of the food was good. We are the red beans and rice, char grilled oysters, fried fish, barbecue shrimp, and fried shrimp. It was a  very good restaurant overall would recommend.",
+        "hf_sentiment":"positive",
+        "hf_summary":"These are the best oysters I've ever had! The service was good and all of the food was good. It was a  very good restaurant overall would recommend",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"The food was delicious!  The problem is the service!\n\nFirst the good:  It was super fresh & everyone enjoyed their meals. We had the alligator appetizer, Shrimp Po Boy, Shrimp & Grits, & the Creole Sampler.  No complaints on any of them. We also had the Charbroiled Oysters, Yum!  The bar drinks were also really tasty & strong.\n\nWhere the visit fell apart is service.  Our waiter, Dominque , was just plain HORRIBLE!  He took drink orders & appetizer at the same time.  We received the appetizer but no sign of any of the drinks bar or non-bar.  He finally came back with part of the drinks.  I asked about the missing drink which he said was coming.  We then watched him go back over & enter the order.  It then sat & sat on the bar waiting for him to return.\nThe food runner brought out the order & made sure it was correct.  The waiter finally returned with the bar drink.  All glasses were empty but no refills offered.  I stopped him & asked for additional Dr Pepper & Diet Coke.  They never came.  He likewise did not return until he dropped off the check never asking how things were, desserts, etc.  the buser has came by & cleared all plates, etc.  the buser like the food runner checked on the meal & asked if we'd consider eating there again.\n\nI would still have only taken off 1 star had I not overheard the hostess tell someone who was on waitlist \" people complain about service but they have 10 tables each\". This tells me it isn't an isolated issue. I waited tables for over 8 years.  I understand bad nights but this was just extreme.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The food was delicious!  The problem is the service! Our waiter, Dominque , was just plain HORRIBLE!  He took drink orders & appetizer at the same time. The food runner brought out the order & made sure it was correct. The waiter finally returned with the bar drink. All glasses were empty but no refills offered. I stopped him & asked for additional Dr Pepper & Diet Coke.  They never came.  He likewise did not return until he dropped off the check never asking how things were, desserts, etc. The hostess told someone who was on waitlist \" people complain about service but",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This place was amazing and the service was exceptional. It's very kid friendly and the kids menu was great. It wasn't expensive and the service people were very nice and professional",
+        "hf_sentiment":"positive",
+        "hf_summary":"This place was amazing and the service was exceptional. It's very kid friendly and the kids menu was great. It wasn't expensive and",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"We were in the neighborhood exploring New Orleans and decided to stop in. This is just a basic seafood place so do not expect anything over the top.  Everything was good but a bit heavy on the butter and salt which is typical New Orleans. Prices were fair for what you got. This seems to be is a place for locals.",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is just a basic seafood place so do not expect anything over the top. Everything was good but a bit heavy on the butter and salt which is typical New Orleans.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Sheila was our server!  What this means is we had Excellent Kind Service! She took Great care of us! \nShe servers me my First Hurricane! \n\nGrilled Oysters here are Wicked delicious! Be warned tho the shells are scorching hot! \nSeafood pastries are to die for as well!  \n\nNo complaints about our Entrees. I would give details and maybe even post pictures except I had a second hurricane and well I don't really remember what we ate ! I had some sort of trifecta.  Beans and rice, jambalaya and at \u00c9touff\u00e9e. Partners food was devoured luckily split with out a trace! He's very particular about food so the empty plate spoke volumes! Five Stars!!! Thank you Miss Sheila!!!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Sheila was our server!  What this means is we had Excellent Kind Service! She took Great care of us!  \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0She servers me my First Hurricane! \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Grilled Oysters here are Wicked delicious! Be warned tho the shells are scorching hot! \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Seafood pastries are to die for as well!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Horrible service horrible food absolutely horrible experience \nWish I could give it no stars",
+        "hf_sentiment":"negative",
+        "hf_summary":"Horrible service horrible food absolutely horrible experience \nWish I could give it no stars",
+        "openai_analysis":{
+          "summary":"The reviewer had a terrible experience due to poor service and food quality.",
+          "issue_type":"Food Quality, Service",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"We had an absolutely incredible experience here! The food was amazing! Elishia was our server and she was awesome! Next time we are in NOLA this will be a MUST stop!",
+        "hf_sentiment":"positive",
+        "hf_summary":"The food was amazing! Elishia was our server and she was awesome! Next time we are in NOLA this will be",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I have the crab cakes and they were probably worst I've ever had in a so called authentic Cajun restaurant. The jambalaya was also sub par. The wait staff was very attentive but towards the end of the evening and after closing time our party spotted several mice running through the restaurant. The staff attempted to explain it away by stating that it's a problem for all restaurants in the Quarter. No bill compensation... No apologies... Will never return!",
+        "hf_sentiment":"negative",
+        "hf_summary":"The crab cakes were probably worst I've ever had in a so called authentic Cajun restaurant. The jambalaya was also sub par. The wait staff was very attentive but towards the end of the evening our party spotted several mice running through the restaurant.",
+        "openai_analysis":{
+          "summary":"The reviewer had a disappointing experience with poor food quality, witnessed mice in the restaurant, and felt there was a lack of accountability from the staff.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"My best friend and I were told about this place on our arrival and managed to try it for breakfast this morning, the food and the service was absolutely amazing!!!! Some of the best shrimp and grits I've ever had in my life, the red beans and rice is also to die for... you will never be disappointed. Major shout out to AJ our server who was absolutely amazing and made our choose so worth it! Thanks AJ xoxox see you next time... \"island girls\"",
+        "hf_sentiment":"positive",
+        "hf_summary":"Some of the best shrimp and grits I've ever had in my life, the red beans and rice is also to die for... you will never be disappointed. Major shout out to AJ our server who was absolutely amazing and made our choose so worth it.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I have been to Mr Ed's other locations and was very happy to hear that they opened up another location closer to where I usually stay.  It's still finding its identity but I am happy to patronize.  My favorites \u00e9touff\u00e9e and chargrilled oysters are on par with the other locations.  \n\nService is good and it had a nice decor.  I hope that this location continues to grow.  I would highly recommend coming here.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Mr Ed's has opened a new location near where I usually stay. It's still finding its identity but I am happy to patronize. Service is good and it had a nice decor. I would highly recommend coming here.",
         "openai_analysis":{
 
         }
@@ -177,19 +1064,130 @@
     "business_id":"pzclcGZd0fZmLb9R8SNdbA",
     "name":"Wawa",
     "category_summary":{
-      "food":"The food quality is inconsistent, with some customers praising the breakfast and lunch sandwiches while others report issues with food safety, such as getting sick from specific items. Many recommend the hoagies and coffee, but there are complaints about incorrect orders.",
-      "service":"Service is generally described as friendly and fast, although some customers have experienced order mistakes. Staff are noted for their upbeat demeanor, even during busy times, contributing positively to the overall experience.",
-      "atmosphere":"The atmosphere varies significantly, with some reviews describing the location as busy and lively, while others report it as dirty and infested with flies. Concerns about safety and the behavior of other customers have also been raised, leading to a negative perception of the environment.",
-      "noise":"The location is often busy, which can lead to a noisy environment, especially during peak hours. However, this is not explicitly mentioned as a major concern in the reviews.",
-      "seating":"Seating is not specifically mentioned in the reviews, indicating that it may not be a significant aspect of the customer experience at this location."
+      "food":"The food quality is inconsistent, with some customers praising the breakfast and lunch sandwiches while others report issues with food safety, such as getting sick from specific items. Some enjoy the variety available, but there are complaints about incorrect orders.",
+      "service":"Service is generally described as friendly and fast, with some staff members noted for being overly chatty. However, there are instances of orders being made improperly, which can lead to frustration.",
+      "atmosphere":"The atmosphere varies significantly, with some reviews highlighting cleanliness and a lively environment, while others describe it as dirty and overwhelming, particularly due to the presence of unsavory individuals outside.",
+      "noise":"The location is often busy, which can lead to a noisy environment, especially during peak hours. However, customers appreciate the efficiency of service despite the hustle.",
+      "seating":"Seating is not specifically mentioned in the reviews, indicating that the focus is more on the gas station and food service rather than a dining area."
     },
     "individual_analyses":[
       {
         "review":"Great gas prices here (even for Lansdale, which has some of the cheapest gas prices in the local region).  I get  some every time we visit our friends near by.",
         "hf_sentiment":"positive",
-        "hf_summary":"Great gas prices here (even for Lansdale, which has some of the cheapest gas prices in the local region) I get  some every time we visit our friends near by. Great gas prices  in Lansdale.  I get some  every time I visit my friends nearby.",
+        "hf_summary":"Great gas prices here (even for Lansdale, which has some of the cheapest gas prices in the local region) I get  some",
         "openai_analysis":{
 
+        }
+      },
+      {
+        "review":"I gotta have my refill... of gas and coffee every morning.  On occasion I spurge for a breakfast hoagie which really hits the spot. \n\nHowever, this spot is is not as good as most other Wawas.  Something about the way they do things here seems slower.",
+        "hf_sentiment":"negative",
+        "hf_summary":"This spot is is not as good as most other Wawas. Something about the way they do things here seems slower.",
+        "openai_analysis":{
+          "summary":"The reviewer enjoys the coffee and breakfast hoagie but finds this Wawa location slower than others.",
+          "issue_type":"Wait Time",
+          "priority":"Medium",
+          "sentiment":"neutral"
+        }
+      },
+      {
+        "review":"Awesome place... Low prices High Quality and great service!!! Their breakfast and lunch sandwiches are the best I have tried so far!! Love Wawa Personly very much",
+        "hf_sentiment":"positive",
+        "hf_summary":"Awesome place... Low prices High Quality and great service!!! Their breakfast and lunch sandwiches are the best I have tried so far!! Love Wawa Personly very much",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I love Wawa, but not this location. I got sick from their Tuna Hoagie, and got upset stomach from other things I've ordered from them. I am thinking their food safety is not up to par. The location on 309 in Colmar is better. Drive there if you need your WaWa fill. Hope they clean up their act.",
+        "hf_sentiment":"negative",
+        "hf_summary":"I love Wawa, but not this location. I got sick from their Tuna Hoagie, and got upset stomach from other things I've ordered from them. The location on 309 in Colmar is better",
+        "openai_analysis":{
+          "summary":"The reviewer loves Wawa but had a negative experience at this location due to food safety concerns after getting sick from their Tuna Hoagie and upset stomach from other items, recommending a different location instead.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"A few miles away from me, but this is my first choice with the Wawa at the corner of 40 Foot and Sumneytown not being very consistent with their product.  This is where my wife and I go for gas on most occasions because they have the best prices around.  Great location between Shoprite, Lowes, and Chick-fil-A.  Very clean store.  Busy, but not inconvenient.  Glad it's in my area.  Didn't have a nice Wawa close by where we just moved from.",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is where my wife and I go for gas on most occasions because they have the best prices around. Great location between Shoprite, Lowes, and Chick-fil-A. Busy, but not inconvenient. Glad it's in my area.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Review of this location.  Dirtiest Wawa I have been in.  Stopped in for coffee before getting on turnpike,  infested with flies and floors were a mess.  Flies were all over the sizzlis in the warmer and  sitting on the coffee urns. I left.  Then contacted board of health.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Review of this location. Dirtiest Wawa I have been in. Stopped in for coffee before getting on turnpike,  infested with flies and floors were a",
+        "openai_analysis":{
+          "summary":"The reviewer describes the location as extremely dirty, with flies present and unsanitary conditions, leading them to leave and contact the board of health.",
+          "issue_type":"Cleanliness",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Very busy Wawa but always good food.  Love their food.  Inconsistent when it comes to their lattes. Sometimes they taste awful and sometimes are better than Starbucks.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Very busy Wawa but always good food.  Love their food.  Inconsistent when it comes to their lattes. Sometimes they taste awful and sometimes are better than Starbucks.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Clean gas station and staff always seems lively and upbeat. I love going for a wawa run for their coffees but their gas prices are higher than other gas stations. This location always seems busy.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Clean gas station and staff always seems lively and upbeat. I love going for a wawa run for their coffees but their gas prices",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I stop at this wawa before work for gas, doughnuts or sanwiches. Service is always fast and friendly. There is a particular cashier that is a little too friendly and always starts conversation with any living being in his proximity. He is harmless but is my least favorite part of this wawa. I recomend ordering from the wawa favorites sanwiches menu, lots of good choices there. This wawa is also much bigger than the one further up 40 foot road.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Service is always fast and friendly. One cashier is harmless but is my least favorite part of this wawa. I recomend ordering from the wawa favorites sanwiches menu, lots of good choices there.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This is my go to Wawa, as it is 5 minutes from my house and in the same shopping center as my work (on the opposite side). I always get my gas here, the food never disappoints, I'm always in and out quickly and the employees are friendly and helpful as well. My only criticism is the parking for gas and the store can be a bit difficult when its busy, which is nearly all the time during the daytime hours. Still, everything else about this location is great.",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is my go to Wawa, as it is 5 minutes from my house and in the same shopping center as my work (on the opposite side) I always get my gas here, the food never disappoints, I'm always in and out quickly and the employees are friendly and helpful as well. My only criticism is the parking for",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"The staff are always nice and friendly whenever I am there, even in the midst of a stressful rush. My order is sometimes made improperly, but I try to make the best of it and enjoy whatever it is that they give me. Mistakes happen, and I always see them push through and support each other when times get stressful and tough. Overall, this is my favorite Wawa location, and I always make an effort to travel to this particular location whenever I am craving a hoagie or chicken tenders bowl!",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is my favorite Wawa location. The staff are always nice and friendly whenever I am there. My order is sometimes made improperly, but I try to make the best of it and enjoy whatever it is that they give me.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Absolutely butchered my order. Italian hoagie, forgot pickles, peppers, onions, pepperoni, oil, oregano. Not sure how it's possible to mess it up when it tells you step by step how to make it, but I was proved wrong.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Italian hoagie, forgot pickles, peppers, onions, pepperoni, oil, oregano. Absolutely butchered my",
+        "openai_analysis":{
+          "summary":"The reviewer received a poorly prepared Italian hoagie with missing ingredients despite clear instructions.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Total hell hole.  We have lived here for over 20 years.  When the Wawa initially went in it was a safe place and it was nice to have a place to get gas on this side of Hatfield before the turnpike.  Now I stop there and most times am overwhelmed by the atmosphere.  It's scary. I was cut off by beat up black car, the car full of people beeped at me and eye balled me as I waited for them to move their car. Inside my child was afraid to get a slurpy without me because of grown men who were standing at the machine.  We watched one fill a cup drink the whole thing and throw it away without paying.  What the hell happened to our small safe country town? Thanks Hatfield Township zoning....Thanks Clemens meats.  Looks like it's only going to get worse.  Their ancestors must be rolling in their graves. Sad.",
+        "hf_sentiment":"negative",
+        "hf_summary":"When the Wawa initially went in it was a safe place and it was nice to have a place to get gas on this side of Hatfield before the turnpike. Now I stop there and most times am overwhelmed by the atmosphere. I was cut off by beat up black car, the car full of people beeped at me and eye balled me.",
+        "openai_analysis":{
+          "summary":"The reviewer expresses frustration over the declining safety and atmosphere of the Wawa in Hatfield, highlighting a negative experience involving unsupervised individuals and a sense of fear for their child.",
+          "issue_type":"Other",
+          "priority":"High",
+          "sentiment":"negative"
         }
       }
     ]
@@ -198,19 +1196,143 @@
     "business_id":"toi1lk2CPTgfyUyEEEjAAQ",
     "name":"Papa John's Pizza",
     "category_summary":{
-      "food":"Overall, the food quality is inconsistent, with many customers praising the freshness and taste of the pizza, while others report issues with skimping on toppings and bland flavors. Some specific items, like the garlic knots, received high praise, but there are complaints about burnt crusts and poor quality at certain locations.",
-      "service":"Service is generally described as friendly and efficient, with timely deliveries and a smooth online ordering process. However, there are reports of missing items in orders and lack of response to customer complaints, which detracts from the overall experience.",
-      "atmosphere":"The atmosphere of the restaurant is noted to be clean and welcoming, with staff being friendly. However, specific comments about the physical environment are limited, as most reviews focus on the food and service.",
-      "noise":"There are no specific mentions of noise levels in the reviews, indicating that it may not be a significant factor for customers.",
-      "seating":"Seating details are not addressed in the reviews, suggesting that the focus is primarily on takeout and delivery rather than dining in."
+      "food":"Overall, the food quality is inconsistent, with many customers praising the fresh ingredients and great taste, while others report issues with skimping on toppings and bland flavors. Some specific items, like garlic knots and the Shaq-a-roni pizza, received positive mentions, but there are complaints about burnt crusts and poor quality at certain locations.",
+      "service":"Most customers appreciate the friendly and efficient service, noting timely deliveries and helpful staff. However, there are some reports of missing items and lack of response to complaints, indicating a need for improved quality control.",
+      "atmosphere":"The atmosphere at the location is generally described as clean and welcoming, with staff maintaining good hygiene practices. Customers feel comfortable picking up their orders and appreciate the overall environment.",
+      "noise":"Noise levels are not specifically mentioned in the reviews, suggesting that it is not a significant concern for customers.",
+      "seating":"Seating is not applicable as most reviews focus on carryout and delivery services rather than dining in."
     },
     "individual_analyses":[
       {
         "review":"Yep, I'm definitely a fan of Papa John's in general, and definitely of this location!  We've been using this location for years for both carry out and delivery.  The pizza is always as good as can be expected of a chain.  It's definitely the best tasting, and freshest, of the top three chains, in my opinion.  \n\nThe deliveries are always brought to us piping hot and in tip top shape.  They've never failed to meet their delivery time estimate, and the drivers are always nice and friendly.  Their internet ordering is a cinch, and don't forget to sign up for Papa's Rewards Points to get free pizzas!\n\nGreat store, good pizza.  What more can I ask for on a lazy night at home?",
         "hf_sentiment":"positive",
-        "hf_summary":"The pizza is always as good as can be expected of a chain. The deliveries are always brought to us piping hot and in tip top shape. Their internet ordering is a cinch, and don't forget to sign up for Papa's Rewards Points to get free pizzas!",
+        "hf_summary":"The pizza is always as good as can be expected of a chain. The deliveries are always brought to us piping hot and in tip top shape. Their internet ordering is a cinch. Don't forget to sign up for Papa's Rewards Points to get free pizzas!",
         "openai_analysis":{
 
+        }
+      },
+      {
+        "review":"I love Papa John's Pizza, and I primarily receive it from this location. I generally receive good level of service with only minor issues along the way. Naturally, I cannot give them a full 5 star review, but I can certainly give them 4 stars. I also would like to see more customer appreciate days because while the pizza here is delicious, the prices are not for the current state of the economy. When given the choice between this Papa John's location and the Little Caesars behind them, I choose Little Caesars not because taste, but because you simply cannot beat the price.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Papa John's pizza is delicious, but the prices are not for the current state of the economy. When given the choice between this Papa John's location and the Little Caesars behind them, I choose LittleCaesars not because taste, but because you simply cannot beat the price.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"So when it comes to Papa Johns I can honestly say that I appreciate the taste. I love their fresh ingredients and their original pizza crust. Usually I'm not one to choose the delivery service. However after a long day I didn't feel like driving so I thought I would try it out. \n   I'm so glad that I did. I did the online delivery option and I remember looking at the time thinking that it would be a good 20-25 minute wait. I was happy to say that it only took about 10 - 15 minutes from the time I clicked submit order. So along with the great taste of the pizza I was also very satisfied with the customer service at this location.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Papa Johns is one of my favourite pizza restaurants. I love their fresh ingredients and their original pizza crust. I was very satisfied with the customer service at this location. The pizza was delivered in about 15 minutes from the time I clicked submit order.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Great pizza!! Always fresh! We've ordered from here three times and it's been consistently good each time!",
+        "hf_sentiment":"positive",
+        "hf_summary":"Great pizza!! Always fresh! We've ordered from here three times and it's been consistently good each time!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Just moved to this side of town and was super happy to find out there's a Papa John's down the street from my new house since it's my favorite pizza chain. We ordered online pick up, pizza was done in 15 minutes as the email stated, and cooked to perfection! The staff was nice, the place was nice and clean and they had like 5 cars ready outside for delivering pizzas. It seems like they're really prepared and probably get a lot of business so I will definitely be returning soon!",
+        "hf_sentiment":"positive",
+        "hf_summary":"We ordered online pick up, pizza was done in 15 minutes as the email stated, and cooked to perfection! The staff was nice, the place was nice and clean and they had like 5 cars ready outside for delivering pizzas. I will definitely be returning soon!",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This is the first time I tried Papa John's from this particular location because I recently moved to the 22nd and Pantano area and I have to say I thought the pizza was pretty good. I ordered a large pepperoni and sausage with bread sticks and it was all delicious. I will order from them again.",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is the first time I tried Papa John's from this particular location because I recently moved to the 22nd and Pantano area. I ordered a large pepperoni and sausage with bread sticks and it was",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"The pizzas were excellent.  Everyone in the family liked them (three medium pizzas with various toppings.)  The cashier was very nice, but she kept putting her fingers in her mouth to bite off hangnails, I presume.  We stood in the waiting area while our pizzas were being made and we noticed the cashier assembling boxes, but she never washed her hands or used sanitizer.",
+        "hf_sentiment":"positive",
+        "hf_summary":"The pizzas were excellent. Everyone in the family liked them. The cashier was very nice, but she kept putting her fingers in her mouth to bite off hangnails, I presume.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Meh, I really don't like this location of Papa John's anymore. Not only do I think their food needs a flavor update like the other big chains have gotten recently, but I think this specific location needs a dedicated quality control checker.  The last time we ordered, we were missing parts of our order. I sent a message online about it, but no one ever responded. I guess they don't care about taking people's money without delivering them their food. Oh well, I guess I can just keep going elsewhere. No big deal, their dough has no flavor and the sauce is bland. Their veggies are ok, but that's about it. \n\nThe deliveries are generally on time, as a positive. Maybe because they don't take the time needed to make your entire order though, so it's easy to get them out quickly.",
+        "hf_sentiment":"negative",
+        "hf_summary":"The last time we ordered, we were missing parts of our order. I sent a message online about it, but no one ever responded. The dough has no flavor and the sauce is bland. Their veggies are ok, but that's about it. The deliveries are generally on time, as a positive.",
+        "openai_analysis":{
+          "summary":"The reviewer is dissatisfied with the food quality and service at this Papa John's location, citing bland flavors, missing items from their order, and lack of response to their complaint.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"This is my sons favorite pizza place. I order from here at least twice a week. Every once in awhile my husband and I also get a pizza from there. We mostly always get delivery, and only once have we received a not so great pizza. Little things dont require a complaint, but this did. They made it right immediately and we have not had any further bad pizzas. The delivery drivers are awesome and the staff has always been welcoming. Thanks for upholding standards that so few fast food delivery companies miss...",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is my sons favorite pizza place. I order from here at least twice a week. The delivery drivers are awesome and the staff has always been welcoming. Thanks for upholding standards that so few fast food delivery companies miss.",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"This is definitely one of my most favorite pizza place. Online order fast and easy. Pizza crust is always fluffy and crusty",
+        "hf_sentiment":"positive",
+        "hf_summary":"This is definitely one of my most favorite pizza place. Online order fast and easy. Pizza crust is always fluffy and crusty",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"I haven't ordered Papa John's in a couple of years.  I have ordered 2x in 2 months niw- 2 different locations.  I have to say that they have definitely stepped up their game!!  \nOmg omg omg!!  The garlic knots are freaking amazing and the cheese pizza is,  too!  \nThese ingredients are absolutely fresh tasting yumminess with the perfect amount of garlic etc.  I am in pizza Heaven!  And my delivery guy was kind and fantastic too!  5 stars!!!!",
+        "hf_sentiment":"positive",
+        "hf_summary":"I haven't ordered Papa John's in a couple of years. I have ordered 2x in 2 months niw- 2 different locations. The garlic knots are freaking amazing and the cheese pizza is, too!  These ingredients are absolutely fresh tasting yumminess with the perfect amount of",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Over the past year the quality has gone downhill.  They skimp on toppings, including cheese.  More frequently than not the crust is burnt.  We are switching to Pizza Hut.  That alone should be a clue about how bad the pizza has gotten.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Over the past year the quality has gone downhill. They skimp on toppings, including cheese. More frequently than not the crust is burnt.",
+        "openai_analysis":{
+          "summary":"The quality of the pizza has declined over the past year, with less toppings and burnt crusts, leading the reviewer to switch to Pizza Hut.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"We're new to Tucson and new to Papa John's. There was not one in our previous town, so we looked forward to trying it. Yikes! We can't say this is the worst Papa John's we've ever tried because we have no frame of reference. But, after months of different pizzas, we can say that the pizza coming out of this store is some of the worst in town.\n     We tried one about a month ago and it was not good. VERY weak on toppings. Since everyone can have an off day, we decided to try them again. Wow, worse than the previous time - if that's possible. Ordered a pizza with 5 toppings and it looked like a lightly-sauced circle of bread. Unbelievable how weak this pizza was.\n     I don't know if this is a quality control issue at this store only or if this is just the kind of product every PJs puts out. Either way, our search continues. We'll never go back to this store (or any other PJ's for that matter).",
+        "hf_sentiment":"negative",
+        "hf_summary":"We're new to Tucson and new to Papa John's. There was not one in our previous town, so we looked forward to trying it. Since everyone can have an off day, we decided to try them again. Wow, worse than the previous time - if that's possible. Ordered a pizza with 5 toppings and it looked like a lightly-sauced circle of bread.",
+        "openai_analysis":{
+          "summary":"The reviewer found the pizza from Papa John's in Tucson to be of very poor quality, particularly criticizing the lack of toppings, and has decided never to return.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      },
+      {
+        "review":"Ordered the Shaq-a-roni, had to, who doesn't like Shaquille O'Neal maybe his name sake pizza is as awesome as he is? Ok maybe not... Just a hyped up chain pizza.  It was good for pizza, but there is much better at a Mom and Pop store around.  The jalapeno popper rolls were good keep in mind its cream cheese inside not mozzarella. But they're ok.  I didn't get any of the chicken poppers. Theres 10 in a box so if you don't grab some on the first round here, your out of luck.  The girls said they were tasty with the buffalo sauce and plenty spicy.   As chain pizza goes it was as expected. Staff was friendly and everyone was wearing masks when we entered the store for pick-up.  So that should be peace of mind  for those getting delivery from this store.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Just a hyped up chain pizza. It was good for pizza, but there is much better at a Mom and Pop store around. Ordered the Shaq-a-roni, had to, who doesn't like Shaquille O'Neal maybe his name sake pizza is as awesome as he is?",
+        "openai_analysis":{
+
+        }
+      },
+      {
+        "review":"Worst ever pizza a couple of nights ago.  Honestly 14 pieces of pizza and maybe a tablespoon of ham and pepperoni on a large pizza. Ordered extra sauce.  It was nonexistent too.  I have ordered from papa.johns for years.  The quality took a real nose dive over the past year.  They are offering a replacement pizza.  Don't think I want a replacement of that.  ID like to give zero stars if that was possible.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Papa John's is offering a replacement pizza. I have ordered from papa.johns for years. The quality took a real nose dive over the past year. Don't think I want a replacement of that.",
+        "openai_analysis":{
+          "summary":"The reviewer had a disappointing experience with a poorly topped pizza and lack of sauce, leading to a decline in their long-standing satisfaction with the restaurant.",
+          "issue_type":"Food Quality",
+          "priority":"High",
+          "sentiment":"negative"
         }
       }
     ]
