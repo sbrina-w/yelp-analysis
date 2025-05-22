@@ -11,8 +11,6 @@ llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0.3, openai_api_key=opena
 def analyze_individual_review(review: str) -> dict:
     messages = [HumanMessage(content=review_prompt.format(review=review))]
     response = llm.invoke(messages).content
-    print(response)
-
     try:
         return eval(response)
     except Exception:
@@ -22,7 +20,6 @@ def summarize_by_category(reviews: list[str]) -> dict:
     joined_reviews = "\n".join(reviews)
     messages = [HumanMessage(content=category_summary_prompt.format(reviews=joined_reviews))]
     response = llm.invoke(messages).content  
-    print(response)
     try:
         return eval(response)
     except Exception:

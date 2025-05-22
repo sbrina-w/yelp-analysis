@@ -1,6 +1,7 @@
 import pandas as pd
 from pipeline.review_loader import load_grouped_reviews
 from pipeline.langchain_pipeline import analyze_individual_review, summarize_by_category
+from pipeline.hf_pipeline import hf_sentiment, hf_summarize
 
 def analyze_reviews_for_restaurant(business_id: str, name: str, all_reviews: list[str]):
     print(f"\nAnalyzing: {name} ({business_id})")
@@ -8,9 +9,21 @@ def analyze_reviews_for_restaurant(business_id: str, name: str, all_reviews: lis
     individual_analyses = []
     for review in all_reviews:
         if isinstance(review, str) and review.strip():  #skip empty or malformed reviews
-            result = analyze_individual_review(review)
-            result['review'] = review
-            individual_analyses.append(result)
+            hf_sent = hf_sentiment(review)
+            hf_sum = hf_summarize(review)
+            #only use OpenAI if HF sentiment is not positive
+            if hf_sent in ["neutral", "negative"]:
+                openai_result = analyze_individual_review(review)
+            else:
+                openai_result = {}
+
+            individual_analyses.append({
+                "review": review,
+                "hf_sentiment": hf_sent,
+                "hf_summary": hf_sum,
+                "openai_analysis": openai_result
+            })
+        break
 
     category_summary = summarize_by_category(all_reviews)
 
@@ -32,7 +45,6 @@ def main():
         reviews = row["text"] 
         result = analyze_reviews_for_restaurant(business_id, name, reviews)
         all_results.append(result)
-        break
 
     pd.DataFrame(all_results).to_json("analysis_output.json", orient="records", indent=2)
     print("\nAnalysis saved to analysis_output.json")

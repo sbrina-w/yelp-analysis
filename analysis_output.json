@@ -3,103 +3,215 @@
     "business_id":"2LfbIS6K7jusVVgYYFtNIA",
     "name":"Hyon's Seafood & Restaurant",
     "category_summary":{
-      "food":"Hyon's offers a variety of fried foods, particularly seafood and wings, which many customers rave about for their flavor and portion sizes. However, some reviews indicate a decline in quality over the years, with specific complaints about the seafood being mushy and the chicken lacking flavor. Overall, the food is generally well-received, especially the wings.",
-      "service":"The staff at Hyon's is frequently described as friendly and attentive, with many customers noting that employees recognize regulars and their orders. However, there are some complaints about the speed of service and the need for more staff during busy times.",
-      "atmosphere":"The restaurant has a small storefront vibe, which can get crowded quickly. While some customers appreciate the cleanliness of the establishment, others mention that the neighborhood can feel sketchy at times.",
-      "noise":"There are no specific mentions of noise levels in the reviews, but the crowded nature of the restaurant suggests it may be lively during peak times.",
-      "seating":"Seating is limited, with only a small bench available for waiting. Customers often have to stand while waiting for their orders, especially during busy periods."
+      "food":"The food at Hyon's is generally praised for its delicious fried options, particularly the wings and seafood. However, some customers have noted a decline in quality over the years, with complaints about mushy seafood and lack of flavor in certain dishes. Overall, the portions are considered generous and the prices reasonable.",
+      "service":"The service is described as friendly and attentive, with staff often recognizing regular customers. However, there are some complaints about the speed of service and the need for more staff during busy times.",
+      "atmosphere":"Hyon's has a small storefront atmosphere that can get crowded quickly. While some find the neighborhood a bit sketchy, others appreciate the nostalgic vibe and cleanliness of the establishment.",
+      "noise":"The reviews do not specifically mention noise levels, but the crowded nature of the restaurant suggests it can be lively during peak times.",
+      "seating":"Seating is limited, with only a small bench available for waiting. Customers often pick up their orders rather than dine in due to the small size of the restaurant."
     },
     "individual_analyses":[
       {
-        "summary":"The reviewer highly recommends Hyon's for its awesome food and friendly staff in Philadelphia.",
-        "issue_type":"None",
-        "priority":"High",
-        "sentiment":"Positive",
-        "review":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try and the staff are very friendly."
-      },
+        "review":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try and the staff are very friendly.",
+        "hf_sentiment":"positive",
+        "hf_summary":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try. The staff are very friendly and the food is very good. I LOVE HYon'S! I LOVE Hyon's! I love Hyon's! I Love Hyon\u2019s!",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"3z2QLrbqRVpjsXioButL-g",
+    "name":"ABC Market",
+    "category_summary":{
+      "food":"The food is consistently praised for being fresh, tasty, and generously portioned. Many reviewers enjoy the Americanized Chinese dishes, with favorites including sweet and sour chicken, Mongolian beef, and crab Rangoon. While some note that the food may not be authentic, it is still considered satisfying and well-prepared.",
+      "service":"Customer service is highlighted as a strong point, with friendly and engaging staff who create a welcoming atmosphere. Reviewers appreciate the pleasant conversations with the cashier and the attentiveness of the owners.",
+      "atmosphere":"The restaurant is described as a no-frills, utilitarian space located in a market that may appear sketchy or uninviting from the outside. Despite this, many customers find the ambiance charming and enjoy the casual dining experience.",
+      "noise":"There are no specific mentions of noise levels in the reviews, suggesting that the environment is generally quiet and conducive to conversation.",
+      "seating":"Seating arrangements are not detailed in the reviews, but the focus seems to be more on the food and service rather than the dining setup."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer praises Hyon's for its delicious fried food, large portions, and reasonable prices, but notes concerns about the neighborhood's safety, resulting in a 4-star rating.",
-        "issue_type":"Other",
-        "priority":"Medium",
-        "sentiment":"Positive",
-        "review":"I have been living in West Philly for about 3 years now and I don't know how I never heard of this place! This is an all-fried food heaven! Don't come here if you are on a diet or not a fan of fried food. However, if your heart and health allows you to treat yourself with a 'lil fried goodies every now and then, Hyon's is the place to go. \n\nThey have a good selection of fried seafood and some fried chicken options (menu pictures posted). Food is made to order and platters are huge!! Also the price point is perfect and the kitchen seems clean! I can't say anything really bad about the place itself as I tried it and loved it. However, as you might notice, the neighborhood could be a little \"sketch\" time to time, which I find totally acceptable as you ll be there for 5 mins picking up your food.\n\nLastly, I haven't tried it myself but I can definitely see Hyon's as the place to order \"finger food\" for the occasional house party too!!!\n\n*Giving it a 4 star because of the location. Food is just amazing.."
-      },
+        "review":"Ignore the dumpy market...at the very back, some damn tasty Chinese food is made...fresh ingredients, always cooked well.",
+        "hf_sentiment":"positive",
+        "hf_summary":"At the very back, some damn tasty Chinese food is made...fresh ingredients, always cooked well. Ignore the dumpy market...at the veryback, some Damn tasty ChineseFood is made. At the back of the market, you'll find the best Chinese food in the world.",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"47BUtVOXhP678iAO3_x1wg",
+    "name":"Southern Comforts",
+    "category_summary":{
+      "food":"The food received high praise for its flavor and variety, with standout dishes including ribs, yams, fried catfish, and cornbread. However, there were some criticisms regarding the mac and cheese and fried whiting, with a few customers expressing disappointment in certain dishes.",
+      "service":"Customers appreciated the friendly and welcoming service from both the chef and staff, often highlighting the personal touch and attentiveness. However, there was one negative experience reported regarding impatience from the chef.",
+      "atmosphere":"The restaurant is described as clean and cozy, with a cute decor that adds to the overall dining experience. However, it is currently takeout only due to COVID-19 restrictions.",
+      "noise":"There are no specific mentions of noise levels in the reviews, suggesting a generally pleasant dining environment.",
+      "seating":"Seating availability is not applicable at the moment as the restaurant is operating on a takeout-only basis due to COVID-19."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer praises Hyon's for its great food, especially the wings, and highlights the friendly service and cleanliness despite its challenging location.",
-        "issue_type":"Food Quality",
-        "priority":"Medium",
-        "sentiment":"Positive",
-        "review":"This place will FOREVER get a bad rap because of it's location. But whatevs lol. The food is great. This is where you get all of your deep fried\/fast food from. Hyon's has been around for years and years with two locations. This one amd the South Philly location. \n\nCheesesteaks, fries, onion rings and those damn breaded WINGS! I don't know what they bread them with at all and it annoys me lol kidding. But the wings are so crispy and light ! \n\nVery clean store and everyone wears gloves. \n\nHyon's is small\/storefront. Small bench to wait but this place gets crowded and fast. Employees are very friendly and attentive. They know their customer's orders as they walk in the door. You can order specials or platters from the menu or order things a la carte. They really do have some of the best wings in the city. \n\nNo online menu but I snagged a paper menu to start calling ahead of time."
-      },
+        "review":"Stop what you are doing and go get RIBS with YAMS at Southern comfort's immediately. This food is absolutely amazing. My wife and I have ordered here on several occasions and have gotten equally amazing results each time. You get so many flavor layers and textures that it'a hard to say which part of the meal is best because it's all so good. \nThe RIBS have a moist thick meat that do not disappoint on size or flavor combined with the barbecue sauce that rivals some of the best around. It goes perfectly together and the sweetness of the YAMS gives a good offset of sweet with a tiny bit of subtle heat that comes through quite nicely.\nMy wife got a Ruben that had a flavorful crispy bread, fresh meats and a total package that would give your finest deli a run for its money.\n\nAs far as price point it really speaks volumes that you can get a big ass, man sized, watch out now meal, for half the cost I paid for my Chinese the other night regrettably. The value is there in these meals. Portion to dollar size is beyond what you'd expect and to get something so good for not a lot is the best.\n\nCan't wait to eat here again!",
+        "hf_sentiment":"positive",
+        "hf_summary":"The RIBS have a moist thick meat that do not disappoint on size or flavor combined with the barbecue sauce that rivals some of the best around. The sweetness of the YAMS gives a good offset of sweet with a tiny bit of subtle heat that comes through quite nicely. The total package would give your finest deli a run for its money.",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"HLNIVWxgdxsQnu0m6MUhWQ",
+    "name":"Tired Hands General Store",
+    "category_summary":{
+      "food":"The general store offers a selection of Tired Hands' signature beers, including cold 4 packs and unique bottled options. Customers rave about the quality of the coffee available, particularly the Awake Minds coffee.",
+      "service":"The staff is consistently described as friendly, knowledgeable, and welcoming, contributing to a pleasant shopping experience. Reviewers appreciate the helpfulness and professionalism of the employees.",
+      "atmosphere":"The store has a cool and unique vibe, with artistic merchandise that reflects the brand's identity. Customers enjoy browsing through the diverse selection of products in a relaxed environment.",
+      "noise":"No specific feedback on noise levels was mentioned in the reviews, suggesting a generally quiet shopping experience.",
+      "seating":"There is no mention of seating available in the store, as it primarily serves as a retail space for merchandise and beer."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer enjoys the food and prices at Hyons but dislikes the flavor of the breaded chicken, which requires additional seasoning.",
-        "issue_type":"Food Quality",
-        "priority":"Medium",
-        "sentiment":"Neutral",
-        "review":"I have been going to Hyons for decades.  The food is good and the prices are even better.  I don't really care for seafood so i stick to the burgers, chicken fingers, and cheesesteaks. The only thing i don't like is that they bread their chicken.  I find that the chicken has no flavor and you really have to \"doctor it up\"!"
-      },
+        "review":"Great place to buy tired hands merchandise beer and glasses. Staff is very nice and knowledgeable about the products. Definitely a must see for beer lovers and tired hands fans.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Great place to buy tired hands merchandise beer and glasses. Staff is very nice and knowledgeable about the products. Definitely a must see for beer lovers and tired hands fans. Back to Mail Online home. back to the page you came from.back to the site you came From.",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"OPhWuFj83RDS9O1qU21X8Q",
+    "name":"Dunkin'",
+    "category_summary":{
+      "food":"Customers have reported issues with food quality, including stale bagels and incorrect orders. Some items were not prepared as requested, leading to dissatisfaction with the food offerings.",
+      "service":"Service has been a major point of contention, with numerous complaints about rude and condescending staff, incorrect orders, and long wait times. Many customers feel that the friendliness and efficiency of the service have declined significantly.",
+      "atmosphere":"The cleanliness of the location has been questioned, with some reviews mentioning that the place doesn't seem clean. However, others noted that the inside is tidy with a few tables available.",
+      "noise":"There are no specific comments regarding noise levels in the reviews provided.",
+      "seating":"The restaurant has limited seating with about five tables available, which may not accommodate larger groups during busy times."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer loves the #8 flounder, wings, and fries, considering them the best in the city since childhood.",
-        "issue_type":"Food Quality",
-        "priority":"High",
-        "sentiment":"Positive",
-        "review":"I always get the #8 flounder, wings, fries soooooo good best in the city since I was a kid."
-      },
+        "review":"Go there daily usually satisfied with product and service I was forced to Deleat my dunkin app  the free coffee after an eagles win failed two times and employee said they were having roblems with the program  so the offer is useless if they are having a constant problem at this location . Even the perk rewards phase is in- op makes you feel like your there begging for free coffee due to their program not working . So I would rather at up for my coffee instead of  being mutilated for a coffee . They offer. Poor promotion on their art .:(",
+        "hf_sentiment":"negative",
+        "hf_summary":"Go there daily usually satisfied with product and service. I was forced to Deleat my dunkin app  the free coffee after an eagles win failed two times and employee said they were having roblems with the program. Even the perk rewards phase is in- op makes you feel like your there begging for free coffee due to their program not working.",
+        "openai_analysis":{
+          "summary":"The reviewer is usually satisfied with the restaurant but is frustrated with the malfunctioning Dunkin app and the ineffective promotion for free coffee after Eagles wins.",
+          "issue_type":"Other",
+          "priority":"High",
+          "sentiment":"negative"
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"ZD4pn3wsNh1EnXF3GuNQEg",
+    "name":"Chicken Holiday",
+    "category_summary":{
+      "food":"The fried chicken is highly praised, with many reviewers calling it some of the best they've had, noting its crispy coating and fresh flavor. Other menu items like honey wings, ribs, and shrimp also receive positive mentions, although some reviewers caution against ordering fish.",
+      "service":"The service is generally described as friendly and accommodating, with some customers highlighting the helpfulness of the staff. However, there are occasional complaints about order accuracy and responsiveness, particularly regarding phone orders.",
+      "atmosphere":"The atmosphere is not a primary focus, with several reviewers indicating that it is not a place for dining in, but rather for takeout. Some mention the owner as entertaining, contributing positively to the experience.",
+      "noise":"Noise levels are not specifically mentioned in the reviews, suggesting that it may not be a significant factor in the dining experience.",
+      "seating":"Seating is not emphasized in the reviews, with many suggesting that takeout is the preferred option rather than dining in."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer had a very negative experience, finding the food inedible and criticizing the appearance of an employee.",
-        "issue_type":"Food Quality",
-        "priority":"High",
-        "sentiment":"Negative",
-        "review":"This place trash. In every sense. Paid $30 for food couldn't even finish it. Food ass. One of the employees looked like a fiend."
-      },
+        "review":"When we moved to the area, we would occasionally pass this place or see a flyer or ad, and joke: \"Chicken Holiday. Well, doesn't sound like much of a holiday for the chicken!\" [yuk, yuk, yuk]... and we kinda wrote it off.\n\nAnd what a stupid thing to do. This past week we were at a picnic, and had what I really thought was some of the best fried chicken I've tasted in a long time. [you see it coming...]\n\nMe: \"Man, this is incredible fried chicken, where is it from?\"\nHost: \"Chicken Holiday, over on Olden.\"\nMe: \"Really? Wow! It's great!\"\nHost: \"Yeah, they do a great job.\"\n\n[Pause. Taking a bite of chicken]\n\nMe: \"I guess it's not much of a holiday for the chicken.\"\nHost: [exhales beer through nose]\n\nRecommended for take out, not a place you really want to sit down and eat. Still, freaking sign me up. I love fried chicken, and this is the best in the area unless you want to drive up to It's Nutts.\n\nFour stars not for ambience or service, but for serving damn good fried chicken. Cole slaw is also amazing. Avoid the fish.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Four stars not for ambience or service, but for serving damn good fried chicken. Cole slaw is also amazing. Avoid the fried chicken place. It's not a place you really want to sit down and eat, but still, freaking sign me up. If you want to drive up to It's Nutts, don't go there.",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"__2LkeVwTuKar5AE95Idzw",
+    "name":"McDonald's",
+    "category_summary":{
+      "food":"The food quality is inconsistent, with several complaints about undercooked burgers and incorrect orders. Customers have also reported missing items and receiving the wrong food altogether.",
+      "service":"Service is frequently criticized for being slow and unresponsive, with many instances of wrong orders and rude staff. Customers have expressed frustration over the lack of accountability from management.",
+      "atmosphere":"The atmosphere is described as uninviting, with staff appearing disengaged and slow. Some customers noted the presence of a nearby 7-11, contributing to a less favorable perception of the location.",
+      "noise":"There are no specific mentions of noise levels in the reviews, but the general dissatisfaction with service may imply a chaotic environment.",
+      "seating":"Seating issues were not explicitly mentioned, but there are complaints about the overall dining experience, suggesting that customers may not feel comfortable or satisfied while waiting for their orders."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer expresses disappointment in the declining food quality, particularly the seafood and fry batter, while noting that the wings remain good.",
-        "issue_type":"Food Quality",
-        "priority":"High",
-        "sentiment":"Negative",
-        "review":"This used to be one of my favorite restaurants\/hood spots but since the last few years their dood has fallen off dramatically. I mean the seafood is mushy at best while their famous fry batter is mediocre. The only thing that really hasn't lost its flavor or crunch would be the wings. Fair is fair and if I had to say if the was fair I would say \"HARDLY\". Dear Hyons please get rid of whomever is preparing what used to be your delicious food because brother it's the worst.\n\nSigned a very close neighbor"
-      },
+        "review":"Open 24 hours, and next to a sketchy 7-11.  As with all McDonald's, you get what you pay for.  \"Meat\" and HFCS at any time, day or night.",
+        "hf_sentiment":"negative",
+        "hf_summary":"Open 24 hours, and next to a sketchy 7-11. As with all McDonald's, you get what you pay for. \"Meat\" and HFCS at any time, day or night. The restaurant is located on the corner of Main Street and Broadway in New York.",
+        "openai_analysis":{
+          "summary":"The restaurant is open 24 hours and is located next to a questionable 7-11, offering low-quality food typical of McDonald's.",
+          "issue_type":"Food Quality",
+          "priority":"Medium",
+          "sentiment":"negative"
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"kvt7lGaRArkeDbw5eCZP8w",
+    "name":"Mr. Eds seafood and oyster Bar",
+    "category_summary":{
+      "food":"The food received mixed reviews; many praised the freshness and taste of dishes like oysters, shrimp, and crawfish, while others criticized specific items like crab cakes and jambalaya. Overall, the menu offers a variety of seafood options and desserts that customers enjoyed.",
+      "service":"Service was a significant point of contention, with several reviews highlighting both excellent and poor experiences. While some servers received praise for their attentiveness and friendliness, others faced criticism for being inattentive or slow, leading to a frustrating dining experience.",
+      "atmosphere":"The restaurant is described as casual and family-friendly, with a nice decor that contributes to a welcoming environment. It is located in the French Quarter, making it a convenient stop for locals and tourists alike.",
+      "noise":"Noise levels were not specifically mentioned in the reviews, suggesting that it may not be a significant issue during dining.",
+      "seating":"Seating arrangements were not discussed in detail, but the restaurant appears to accommodate families and larger groups comfortably."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer recommends the seafood and highlights that the steak in the cheese steaks is real, which is uncommon in urban restaurants.",
-        "issue_type":"Food Quality",
-        "priority":"Medium",
-        "sentiment":"Positive",
-        "review":"I mean go for seafood the steak on the cheese steaks are actually real steak which you dont really see at these Urban spots"
-      },
+        "review":"Brand new location. Brand new menu items. Same great service you expect from Mr Ed's Seafood and Oyster Bar NOW OPEN at 821 Iberville in the heart of the French Quarter. Fantastic menu options like Oysters on the half shell, Oyster Rockefeller, jumbo friend shrimp or fish, and Crawfish & Crab Cakes, just to name a few.  Save room for dessert,  but with options like Banna Fosters Creme Pie, Bread Pudding, and Chocolate Mousse, it's almost impossible to decide.  It's a casual, family friendly restaurant, open 11am-10pm  Sun-Thurs, 11am-11pm Fri. & Sat (subject to change).\nYou'll appreciate the large selection of local beers on tap, and their custom mixed cocktails are always on point. My favorite is Debbie's Fruit Punch, you've got to check it out. \nIt's seriously good.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Mr Ed's Seafood and Oyster Bar is now open at 821 Iberville in the heart of the French Quarter. Fantastic menu options like Oysters on the half shell, Oyster Rockefeller, jumbo friend shrimp or fish, and Crawfish & Crab Cakes. Save room for dessert,  but with options like Banna Fosters Creme Pie, Bread Pudding, and Chocolate Mousse.",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"pzclcGZd0fZmLb9R8SNdbA",
+    "name":"Wawa",
+    "category_summary":{
+      "food":"The food quality is inconsistent, with some customers praising the breakfast and lunch sandwiches while others report issues with food safety, such as getting sick from specific items. Many recommend the hoagies and coffee, but there are complaints about incorrect orders.",
+      "service":"Service is generally described as friendly and fast, although some customers have experienced order mistakes. Staff are noted for their upbeat demeanor, even during busy times, contributing positively to the overall experience.",
+      "atmosphere":"The atmosphere varies significantly, with some reviews describing the location as busy and lively, while others report it as dirty and infested with flies. Concerns about safety and the behavior of other customers have also been raised, leading to a negative perception of the environment.",
+      "noise":"The location is often busy, which can lead to a noisy environment, especially during peak hours. However, this is not explicitly mentioned as a major concern in the reviews.",
+      "seating":"Seating is not specifically mentioned in the reviews, indicating that it may not be a significant aspect of the customer experience at this location."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer praises the restaurant for having the best seafood in West Philly and notes the service is fast and pleasant.",
-        "issue_type":"None",
-        "priority":"High",
-        "sentiment":"Positive",
-        "review":"best sea food in west philly.fast and nice."
-      },
+        "review":"Great gas prices here (even for Lansdale, which has some of the cheapest gas prices in the local region).  I get  some every time we visit our friends near by.",
+        "hf_sentiment":"positive",
+        "hf_summary":"Great gas prices here (even for Lansdale, which has some of the cheapest gas prices in the local region) I get  some every time we visit our friends near by. Great gas prices  in Lansdale.  I get some  every time I visit my friends nearby.",
+        "openai_analysis":{
+
+        }
+      }
+    ]
+  },
+  {
+    "business_id":"toi1lk2CPTgfyUyEEEjAAQ",
+    "name":"Papa John's Pizza",
+    "category_summary":{
+      "food":"Overall, the food quality is inconsistent, with many customers praising the freshness and taste of the pizza, while others report issues with skimping on toppings and bland flavors. Some specific items, like the garlic knots, received high praise, but there are complaints about burnt crusts and poor quality at certain locations.",
+      "service":"Service is generally described as friendly and efficient, with timely deliveries and a smooth online ordering process. However, there are reports of missing items in orders and lack of response to customer complaints, which detracts from the overall experience.",
+      "atmosphere":"The atmosphere of the restaurant is noted to be clean and welcoming, with staff being friendly. However, specific comments about the physical environment are limited, as most reviews focus on the food and service.",
+      "noise":"There are no specific mentions of noise levels in the reviews, indicating that it may not be a significant factor for customers.",
+      "seating":"Seating details are not addressed in the reviews, suggesting that the focus is primarily on takeout and delivery rather than dining in."
+    },
+    "individual_analyses":[
       {
-        "summary":"The reviewer appreciates the excellent customer service but desires a larger variety of fish options.",
-        "issue_type":"Food Quality",
-        "priority":"Medium",
-        "sentiment":"Positive",
-        "review":"Love the full bred customer service I wish they had a bigger variety of fish but everything they got it is good"
-      },
-      {
-        "summary":"The reviewer was dissatisfied with both the service and the food, citing a need for more staff to handle orders effectively.",
-        "issue_type":"Service",
-        "priority":"High",
-        "sentiment":"Negative",
-        "review":"I wasn't pleased with the service or my food. They were rushing and need more help to process the orders."
-      },
-      {
-        "summary":"The reviewer enjoyed the nostalgic experience of dining at Hyons, praising the great food, especially the breaded wings, and the friendly staff.",
-        "issue_type":"None",
-        "priority":"High",
-        "sentiment":"Positive",
-        "review":"I was in the mood for some breaded wings and crabstick's so i went to Hyons. Grew up on Hyons being as though ima West Philly Native. They still have that good flavor like in the 90's when i was a little kid. It was nostalgia eating here it took me back to my childhood they haven't missed a beat. The food was Great and the Staff was Friendly. They have the Best Breaded wings in the City Hands down."
-      },
-      {
-        "summary":"The reviewer found Hyon's to be an average restaurant with satisfying wings and friendly service, but noted that prices have increased and they would choose a different item next time.",
-        "issue_type":"Food Quality",
-        "priority":"Medium",
-        "sentiment":"Positive",
-        "review":"Hyon's was pretty good for what I ordered, wasn't the best but pretty average. Being from Southwest and hanging in West Philly a lot coming up as a kid, I always use to see this store but never ate from here until recently.\n\n  Tell you this much, the amount of food you receive in a chicken wing special is more than enough for one person in my opinion. Even if you been REAL hungry.\n\n  That special comes with 6wings, golden nicely cooked fries, and your choice is of cole slaw or pasta salad. Think for $11+\n\n  So the prices definitely went up within the last 2yrs. Everything now is though cause of times so nothing big.\n\n  I enjoyed my wings honestly. Didn't finish them but they were satisfying and tasted decent.\n\n  Probably should've skipped on the crab sticks though but that was my fault cause I seen my cousin post some and I thought they would be good as his looked but they were just okay. Should've got the scallops like I originally was gonna do.\n\n  Called my order in ahead of time so it was no long time to get my food.  When you get there if you want condiments, you put them on yourself.\n\n  Everything is there so I put the ketchup, hot sauce, and little salt on both of my food.\n\n  Friendly staff inside. They speak and acknowledge you so that's always points for any business.\n\n  Have no complaints in general and yes I would come back, just would change my 2nd option.\n\n  Hyon's definitely worth a visit if your around the way."
+        "review":"Yep, I'm definitely a fan of Papa John's in general, and definitely of this location!  We've been using this location for years for both carry out and delivery.  The pizza is always as good as can be expected of a chain.  It's definitely the best tasting, and freshest, of the top three chains, in my opinion.  \n\nThe deliveries are always brought to us piping hot and in tip top shape.  They've never failed to meet their delivery time estimate, and the drivers are always nice and friendly.  Their internet ordering is a cinch, and don't forget to sign up for Papa's Rewards Points to get free pizzas!\n\nGreat store, good pizza.  What more can I ask for on a lazy night at home?",
+        "hf_sentiment":"positive",
+        "hf_summary":"The pizza is always as good as can be expected of a chain. The deliveries are always brought to us piping hot and in tip top shape. Their internet ordering is a cinch, and don't forget to sign up for Papa's Rewards Points to get free pizzas!",
+        "openai_analysis":{
+
+        }
       }
     ]
   }

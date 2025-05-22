@@ -9,7 +9,7 @@ Review: "{review}"
 1. Summarize the main points in 1 sentence.
 2. Identify the main issue type: [Food Quality, Service, Cleanliness, Ambience, Price, Wait Time, Other, None].
 3. Based on the tone and severity, assign a priority: [High, Medium, Low, None].
-4. Give an overall sentiment analysis of how the reviewer feels towards the restaurant: [Positive, Neutral, Negative]
+4. Give an overall sentiment analysis of how the reviewer feels towards the restaurant: [positive, neutral, negative]
 
 Respond in JSON format like:
 {{
