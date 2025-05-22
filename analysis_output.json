@@ -1,0 +1,106 @@
+[
+  {
+    "business_id":"2LfbIS6K7jusVVgYYFtNIA",
+    "name":"Hyon's Seafood & Restaurant",
+    "category_summary":{
+      "food":"Hyon's offers a variety of fried foods, particularly seafood and wings, which many customers rave about for their flavor and portion sizes. However, some reviews indicate a decline in quality over the years, with specific complaints about the seafood being mushy and the chicken lacking flavor. Overall, the food is generally well-received, especially the wings.",
+      "service":"The staff at Hyon's is frequently described as friendly and attentive, with many customers noting that employees recognize regulars and their orders. However, there are some complaints about the speed of service and the need for more staff during busy times.",
+      "atmosphere":"The restaurant has a small storefront vibe, which can get crowded quickly. While some customers appreciate the cleanliness of the establishment, others mention that the neighborhood can feel sketchy at times.",
+      "noise":"There are no specific mentions of noise levels in the reviews, but the crowded nature of the restaurant suggests it may be lively during peak times.",
+      "seating":"Seating is limited, with only a small bench available for waiting. Customers often have to stand while waiting for their orders, especially during busy periods."
+    },
+    "individual_analyses":[
+      {
+        "summary":"The reviewer highly recommends Hyon's for its awesome food and friendly staff in Philadelphia.",
+        "issue_type":"None",
+        "priority":"High",
+        "sentiment":"Positive",
+        "review":"I LOVE HYON'S!!!! Their food is awesome if you are in Philadelphia you should most definitely give them a try and the staff are very friendly."
+      },
+      {
+        "summary":"The reviewer praises Hyon's for its delicious fried food, large portions, and reasonable prices, but notes concerns about the neighborhood's safety, resulting in a 4-star rating.",
+        "issue_type":"Other",
+        "priority":"Medium",
+        "sentiment":"Positive",
+        "review":"I have been living in West Philly for about 3 years now and I don't know how I never heard of this place! This is an all-fried food heaven! Don't come here if you are on a diet or not a fan of fried food. However, if your heart and health allows you to treat yourself with a 'lil fried goodies every now and then, Hyon's is the place to go. \n\nThey have a good selection of fried seafood and some fried chicken options (menu pictures posted). Food is made to order and platters are huge!! Also the price point is perfect and the kitchen seems clean! I can't say anything really bad about the place itself as I tried it and loved it. However, as you might notice, the neighborhood could be a little \"sketch\" time to time, which I find totally acceptable as you ll be there for 5 mins picking up your food.\n\nLastly, I haven't tried it myself but I can definitely see Hyon's as the place to order \"finger food\" for the occasional house party too!!!\n\n*Giving it a 4 star because of the location. Food is just amazing.."
+      },
+      {
+        "summary":"The reviewer praises Hyon's for its great food, especially the wings, and highlights the friendly service and cleanliness despite its challenging location.",
+        "issue_type":"Food Quality",
+        "priority":"Medium",
+        "sentiment":"Positive",
+        "review":"This place will FOREVER get a bad rap because of it's location. But whatevs lol. The food is great. This is where you get all of your deep fried\/fast food from. Hyon's has been around for years and years with two locations. This one amd the South Philly location. \n\nCheesesteaks, fries, onion rings and those damn breaded WINGS! I don't know what they bread them with at all and it annoys me lol kidding. But the wings are so crispy and light ! \n\nVery clean store and everyone wears gloves. \n\nHyon's is small\/storefront. Small bench to wait but this place gets crowded and fast. Employees are very friendly and attentive. They know their customer's orders as they walk in the door. You can order specials or platters from the menu or order things a la carte. They really do have some of the best wings in the city. \n\nNo online menu but I snagged a paper menu to start calling ahead of time."
+      },
+      {
+        "summary":"The reviewer enjoys the food and prices at Hyons but dislikes the flavor of the breaded chicken, which requires additional seasoning.",
+        "issue_type":"Food Quality",
+        "priority":"Medium",
+        "sentiment":"Neutral",
+        "review":"I have been going to Hyons for decades.  The food is good and the prices are even better.  I don't really care for seafood so i stick to the burgers, chicken fingers, and cheesesteaks. The only thing i don't like is that they bread their chicken.  I find that the chicken has no flavor and you really have to \"doctor it up\"!"
+      },
+      {
+        "summary":"The reviewer loves the #8 flounder, wings, and fries, considering them the best in the city since childhood.",
+        "issue_type":"Food Quality",
+        "priority":"High",
+        "sentiment":"Positive",
+        "review":"I always get the #8 flounder, wings, fries soooooo good best in the city since I was a kid."
+      },
+      {
+        "summary":"The reviewer had a very negative experience, finding the food inedible and criticizing the appearance of an employee.",
+        "issue_type":"Food Quality",
+        "priority":"High",
+        "sentiment":"Negative",
+        "review":"This place trash. In every sense. Paid $30 for food couldn't even finish it. Food ass. One of the employees looked like a fiend."
+      },
+      {
+        "summary":"The reviewer expresses disappointment in the declining food quality, particularly the seafood and fry batter, while noting that the wings remain good.",
+        "issue_type":"Food Quality",
+        "priority":"High",
+        "sentiment":"Negative",
+        "review":"This used to be one of my favorite restaurants\/hood spots but since the last few years their dood has fallen off dramatically. I mean the seafood is mushy at best while their famous fry batter is mediocre. The only thing that really hasn't lost its flavor or crunch would be the wings. Fair is fair and if I had to say if the was fair I would say \"HARDLY\". Dear Hyons please get rid of whomever is preparing what used to be your delicious food because brother it's the worst.\n\nSigned a very close neighbor"
+      },
+      {
+        "summary":"The reviewer recommends the seafood and highlights that the steak in the cheese steaks is real, which is uncommon in urban restaurants.",
+        "issue_type":"Food Quality",
+        "priority":"Medium",
+        "sentiment":"Positive",
+        "review":"I mean go for seafood the steak on the cheese steaks are actually real steak which you dont really see at these Urban spots"
+      },
+      {
+        "summary":"The reviewer praises the restaurant for having the best seafood in West Philly and notes the service is fast and pleasant.",
+        "issue_type":"None",
+        "priority":"High",
+        "sentiment":"Positive",
+        "review":"best sea food in west philly.fast and nice."
+      },
+      {
+        "summary":"The reviewer appreciates the excellent customer service but desires a larger variety of fish options.",
+        "issue_type":"Food Quality",
+        "priority":"Medium",
+        "sentiment":"Positive",
+        "review":"Love the full bred customer service I wish they had a bigger variety of fish but everything they got it is good"
+      },
+      {
+        "summary":"The reviewer was dissatisfied with both the service and the food, citing a need for more staff to handle orders effectively.",
+        "issue_type":"Service",
+        "priority":"High",
+        "sentiment":"Negative",
+        "review":"I wasn't pleased with the service or my food. They were rushing and need more help to process the orders."
+      },
+      {
+        "summary":"The reviewer enjoyed the nostalgic experience of dining at Hyons, praising the great food, especially the breaded wings, and the friendly staff.",
+        "issue_type":"None",
+        "priority":"High",
+        "sentiment":"Positive",
+        "review":"I was in the mood for some breaded wings and crabstick's so i went to Hyons. Grew up on Hyons being as though ima West Philly Native. They still have that good flavor like in the 90's when i was a little kid. It was nostalgia eating here it took me back to my childhood they haven't missed a beat. The food was Great and the Staff was Friendly. They have the Best Breaded wings in the City Hands down."
+      },
+      {
+        "summary":"The reviewer found Hyon's to be an average restaurant with satisfying wings and friendly service, but noted that prices have increased and they would choose a different item next time.",
+        "issue_type":"Food Quality",
+        "priority":"Medium",
+        "sentiment":"Positive",
+        "review":"Hyon's was pretty good for what I ordered, wasn't the best but pretty average. Being from Southwest and hanging in West Philly a lot coming up as a kid, I always use to see this store but never ate from here until recently.\n\n  Tell you this much, the amount of food you receive in a chicken wing special is more than enough for one person in my opinion. Even if you been REAL hungry.\n\n  That special comes with 6wings, golden nicely cooked fries, and your choice is of cole slaw or pasta salad. Think for $11+\n\n  So the prices definitely went up within the last 2yrs. Everything now is though cause of times so nothing big.\n\n  I enjoyed my wings honestly. Didn't finish them but they were satisfying and tasted decent.\n\n  Probably should've skipped on the crab sticks though but that was my fault cause I seen my cousin post some and I thought they would be good as his looked but they were just okay. Should've got the scallops like I originally was gonna do.\n\n  Called my order in ahead of time so it was no long time to get my food.  When you get there if you want condiments, you put them on yourself.\n\n  Everything is there so I put the ketchup, hot sauce, and little salt on both of my food.\n\n  Friendly staff inside. They speak and acknowledge you so that's always points for any business.\n\n  Have no complaints in general and yes I would come back, just would change my 2nd option.\n\n  Hyon's definitely worth a visit if your around the way."
+      }
+    ]
+  }
+]

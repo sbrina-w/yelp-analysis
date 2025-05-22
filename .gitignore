@@ -6,8 +6,6 @@ __pycache__/
 *.py[cod]
 
 # Ignore data files
-*.json
-data/
 yelp_data/
 
 # Ignore environment
