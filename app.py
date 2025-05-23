@@ -1,4 +1,7 @@
 import streamlit as st
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import pandas as pd
 import seaborn
 import plotly.express as px
@@ -7,9 +10,6 @@ import json
 import folium
 from streamlit_folium import st_folium
 from semantic_search.trend_analysis import semantic_search_interface, cluster_analysis_interface
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 st.set_page_config(page_title="Yelp Review Analytics", layout="wide", initial_sidebar_state="expanded")
 
