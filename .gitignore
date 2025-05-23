@@ -14,3 +14,6 @@ venv/
 
 # Ignore system files
 .DS_Store
+
+#Ignore API Keys from Streamlit
+.streamlit/secrets.toml

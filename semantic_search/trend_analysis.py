@@ -12,6 +12,7 @@ import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 from openai import OpenAI
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
@@ -47,7 +48,8 @@ class ClusterAnalyzer:
     def __init__(self, db_path="./semantic_search/chroma_db"):
         self.client = chromadb.PersistentClient(path=db_path)
         self.collection = self.client.get_collection("yelp_reviews")
-        self.openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.openai_client = OpenAI(api_key=st.secrets["openai"]["OPENAI_API_KEY"])
+        #self.openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self._load_data()
         
     def _load_data(self):
