@@ -1,0 +1,2 @@
+Using dataset from Yelp's open dataset (without images): https://business.yelp.com/data/resources/open-dataset/.
+File size too large hence put in gitignore. 
