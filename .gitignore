@@ -6,7 +6,7 @@ __pycache__/
 *.py[cod]
 
 # Ignore data files
-yelp_data/
+yelp_academic*
 
 # Ignore environment
 venv/
