@@ -6,17 +6,20 @@ from plotly.subplots import make_subplots
 import json
 import folium
 from streamlit_folium import st_folium
+from semantic_search.trend_analysis import semantic_search_interface, cluster_analysis_interface
 
 st.set_page_config(page_title="Yelp Review Analytics", layout="wide", initial_sidebar_state="expanded")
 
 def load_css(file_path):
     with open(file_path) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-load_css("styles.css")
+try:
+    load_css("styles.css")
+except FileNotFoundError:
+    pass
 st.markdown("""
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 """, unsafe_allow_html=True)
-
 
 @st.cache_data
 def load_data(path="analysis_output.json"):
@@ -35,19 +38,22 @@ if not data:
 
 user_type = st.sidebar.radio(
     "Select User Type",
-    ["General User (Restaurant Explorer)", "Business Owner (Review Tracker)"],
+    ["General User (Restaurant Explorer)", "Business Owner (Review Tracker)", "Data Analyst (Deep Insights)"],
     help="Choose your user type to customize the dashboard experience"
 )
 
 restaurant_names = [entry["name"] for entry in data]
-selected_name = st.sidebar.selectbox("Select Restaurant", restaurant_names, key="restaurant_select")
-restaurant = next(r for r in data if r["name"] == selected_name)
+st.session_state.restaurant_names = restaurant_names
 
-st.html(f"""
-<div class="main-header">
-    <h1>{selected_name}</h1>
-</div>
-""")
+if user_type != "Data Analyst (Deep Insights)":
+    selected_name = st.sidebar.selectbox("Select Restaurant", restaurant_names, key="restaurant_select")
+    restaurant = next(r for r in data if r["name"] == selected_name)
+    
+    st.html(f"""
+    <div class="main-header">
+        <h1>{selected_name}</h1>
+    </div>
+    """)
 
 @st.cache_data
 def process_restaurant_data(restaurant_data):
@@ -71,10 +77,22 @@ def process_restaurant_data(restaurant_data):
     
     return df
 
-df = process_restaurant_data(restaurant)
+if "Data Analyst" in user_type:
+    st.html("""
+    <div class="main-header">
+        <h1>Analytics Dashboard</h1>
+        <p>Semantic search and topic clustering across all restaurant reviews</p>
+    </div>
+    """)
+    main_tab1, main_tab2 = st.tabs(["🔍 Semantic Search", "🗺️ Topic Clustering"])
+    
+    with main_tab1:
+        semantic_search_interface()
+    with main_tab2:
+        cluster_analysis_interface()
 
-
-if "General User" in user_type:
+elif "General User" in user_type:
+    df = process_restaurant_data(restaurant)
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
@@ -115,6 +133,51 @@ if "General User" in user_type:
             <p>reviews since 2021</p>
         </div>
         """)
+    
+    #semantic search widget for General Users
+    st.markdown("---")
+    st.markdown("### 🔍 Search This Restaurant's Reviews")
+    
+    search_query = st.text_input(
+        "What would you like to know about this restaurant?",
+        placeholder="e.g., 'how is the service?', 'is it good for dates?', 'parking availability'"
+    )
+    
+    if search_query:
+        #use semantic search for this specific restaurant's reviews
+        if 'search_engine' not in st.session_state:
+            with st.spinner("Initializing search..."):
+                from semantic_search.trend_analysis import SemanticSearchEngine
+                st.session_state.search_engine = SemanticSearchEngine()
+        
+        with st.spinner("Searching reviews..."):
+            results = st.session_state.search_engine.search(
+                search_query, 
+                n_results=5, 
+                restaurant_filter=selected_name
+            )
+        
+        if results['documents'][0]:
+            st.markdown("**Most relevant reviews:**")
+            #show top three relevant results
+            for i, (doc, metadata, distance) in enumerate(zip(
+                results['documents'][0][:3],  
+                results['metadatas'][0][:3], 
+                results['distances'][0][:3]
+            )):
+                similarity = 1 / (1 + distance)
+                sentiment_color = colors = {'positive': "#14783d",'neutral': "#cca51a",'negative': "#9f1e1e"}[metadata['sentiment']]                
+                st.markdown(f"""
+                <div class="review-card" style="border-left: 4px solid {sentiment_color};">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span>Review</strong></span>
+                        <span style="color: #666; font-size: 0.9rem;">{metadata['date']}</span>
+                    </div>
+                    <p style="margin-top: 1rem; font-style: italic;">"{doc[:250]}{'...' if len(doc) > 250 else ''}"</p>
+                </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.info("No relevant reviews found for your query.")
     
     st.markdown("### 📋 What People Are Saying")
     
@@ -191,7 +254,7 @@ if "General User" in user_type:
     
     if comparison_df['Latitude'].notna().any():
         st.markdown("### 🗺️ All Restaurants Map")
-        
+
         # center_lat = comparison_df['Latitude'].mean()
         # center_lon = comparison_df['Longitude'].mean()
         
@@ -216,6 +279,7 @@ if "General User" in user_type:
         
         st_folium(m, width="100%", height=500)
 else:
+    df = process_restaurant_data(restaurant)
     
     if df.empty:
         st.warning("No review data available for analysis.")
@@ -283,10 +347,79 @@ else:
         </div>
         """)
     
-    tab1, tab2, tab3, tab4 = st.tabs(["📈 Trends", "🎯 Issues Analysis", "📋 Priority Reviews", "📊 Sentiment Overview"])
+    st.markdown("---")
+    st.markdown("### 🔍 Smart Review Search")
+    st.markdown("Find specific feedback to improve your business. *Note: review search is across all franchise locations, whereas analysis is specific to this location.")
+    
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        business_query = st.text_input(
+            "Search for specific feedback:",
+            placeholder="e.g., 'staff training issues', 'food quality problems', 'wait times'"
+        )
+    with col2:
+        search_sentiment = st.selectbox("Focus on:", ["All", "Negative", "Positive"], key="business_search_sentiment")
+    
+    if business_query:
+        if 'search_engine' not in st.session_state:
+            with st.spinner("Initializing search..."):
+                from semantic_search.trend_analysis import SemanticSearchEngine
+                st.session_state.search_engine = SemanticSearchEngine()
+        
+        search_sentiment_filter = None if search_sentiment == "All" else search_sentiment.lower()
+        
+        with st.spinner("Finding relevant feedback..."):
+            results = st.session_state.search_engine.search(
+                business_query, 
+                n_results=8, 
+                restaurant_filter=selected_name,
+                sentiment_filter=search_sentiment_filter
+            )
+        
+        if results['documents'][0]:
+            st.markdown("** Relevant Customer Feedback: **")
+            
+            feedback_by_sentiment = {'positive': [], 'negative': [], 'neutral': []}
+            
+            for doc, metadata, distance in zip(
+                results['documents'][0], 
+                results['metadatas'][0], 
+                results['distances'][0]
+            ):
+                sentiment = metadata['sentiment']
+                similarity = 1 / (1 + distance)
+                feedback_by_sentiment[sentiment].append({
+                    'text': doc,
+                    'date': metadata['date'],
+                    'similarity': similarity
+                })
+            
+            if feedback_by_sentiment['negative']:
+                st.markdown("**Issues to Address:**")
+                for item in feedback_by_sentiment['negative'][:3]:
+                    st.markdown(f"""
+                    <div class="review-card" style="border-left: 4px solid #ef4444;">
+                        <p style="margin: 0; font-size: 0.9rem; color: #666;">{item['date']} • Relevance: {item['similarity']:.1%}</p>
+                        <p style="margin: 0.5rem 0 0 0; font-style: italic;">"{item['text'][:200]}{'...' if len(item['text']) > 200 else ''}"</p>
+                    </div>
+                    """, unsafe_allow_html=True)
+            
+            if feedback_by_sentiment['positive']:
+                st.markdown("**What's Working Well:**")
+                for item in feedback_by_sentiment['positive'][:3]:
+                    st.markdown(f"""
+                    <div class="review-card" style="border-left: 4px solid #10b981;">
+                        <p style="margin: 0; font-size: 0.9rem; color: #666;">{item['date']} • Relevance: {item['similarity']:.1%}</p>
+                        <p style="margin: 0.5rem 0 0 0; font-style: italic;">"{item['text'][:200]}{'...' if len(item['text']) > 200 else ''}"</p>
+                    </div>
+                    """, unsafe_allow_html=True)
+        else:
+            st.info("No relevant feedback found. Try different search terms.")
+    
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["📈 Trends", "🎯 Issues Analysis", "📋 Priority Reviews", "📊 Sentiment Overview", "🧠 AI Insights"])
     
     with tab1:
-        
+
         # Rating trends over time
         monthly_ratings = filtered_df.groupby('year_month')['adjusted_rating'].agg(['mean', 'count']).reset_index()
         monthly_ratings['year_month_str'] = monthly_ratings['year_month'].astype(str)
@@ -303,7 +436,7 @@ else:
                      labels={'count': 'Number of Reviews', 'year_month_str': 'Month'})
         fig2.update_layout(height=400)
         st.plotly_chart(fig2, use_container_width=True)
-        
+
     
     with tab2:        
         issues_df = filtered_df[filtered_df['issue_type'].notna()]
@@ -355,13 +488,13 @@ else:
                 
                 st.markdown(f"""
                 <div class="review-card {priority_class} {sentiment_class}">
-                    <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 0.5rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
                         <strong>Priority: {row['priority']}</strong>
                         <span style="margin-left: auto; color: #666; font-size: 0.9rem;">{row['date'].strftime('%Y-%m-%d')}</span>
                     </div>
                     <p><strong>Issue:</strong> {row['issue_type']}</p>
                     <p><strong>Summary:</strong> {row.get('openai_summary', 'N/A')}</p>
-                    <p><strong>Original Review:</strong> {row['review']}...</p>
+                    <p><strong>Original Review:</strong> {row['review'][:300]}{'...' if len(row['review']) > 300 else ''}</p>
                     <p><strong>User ID:</strong> <code>{row['user_id']}</code></p>
                     <p><strong>Rating:</strong> ⭐ {row['adjusted_rating']}</p>
                 </div>
@@ -397,3 +530,51 @@ else:
                          title='Sentiment Trends Over Time',
                          labels={'year_month_str': 'Month'})
             st.plotly_chart(fig, use_container_width=True)    
+    
+    with tab5:
+        st.markdown("### AI-Powered Business Insights")
+        st.markdown("Analytics to help improve your restaurant")
+        
+        if st.button("🔍 Analyze Review Topics for This Restaurant"):
+            with st.spinner("Analyzing review topics..."):
+                from semantic_search.trend_analysis import ClusterAnalyzer
+                
+                if 'restaurant_analyzer' not in st.session_state:
+                    st.session_state.restaurant_analyzer = ClusterAnalyzer()
+                
+                analyzer = st.session_state.restaurant_analyzer
+                restaurant_data = analyzer.df[analyzer.df['name'] == selected_name]
+                
+                if not restaurant_data.empty:
+                    analyzer.perform_clustering(n_clusters=min(6, len(restaurant_data)//5))
+                    restaurant_clusters = restaurant_data['cluster_label'].value_counts()
+                    
+                    st.markdown("**Main Topics in Your Reviews:**")
+                    
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        fig = px.pie(
+                            values=restaurant_clusters.values,
+                            names=restaurant_clusters.index,
+                            title=f'Review Topics for {selected_name}'
+                        )
+                        st.plotly_chart(fig, use_container_width=True)
+                    
+                    with col2:
+                        st.markdown("**Topic Breakdown:**")
+                        for topic, count in restaurant_clusters.items():
+                            pct = count / len(restaurant_data) * 100
+                            topic_sentiment = restaurant_data[restaurant_data['cluster_label'] == topic]['sentiment'].mode()
+                            sentiment_emoji = {'positive': '😊', 'negative': '😞', 'neutral': '😐'}
+                            emoji = sentiment_emoji.get(topic_sentiment.iloc[0] if not topic_sentiment.empty else 'neutral', '😐')
+                            
+                            st.markdown(f"{emoji} **{topic}**: {count} reviews ({pct:.1f}%)")
+                    
+                    negative_topics = restaurant_data[restaurant_data['sentiment'] == 'negative']['cluster_label'].value_counts()
+                    if not negative_topics.empty:
+                        st.markdown("**⚠️ Priority Areas for Improvement:**")
+                        for topic, count in negative_topics.head(3).items():
+                            st.error(f"**{topic}**: {count} negative reviews - Consider addressing this area")
+                
+                else:
+                    st.info("Not enough data for topic analysis. This feature works better with restaurants that have more reviews in the dataset.")

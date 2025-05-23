@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #f8fafc;
     position: relative;
     overflow: hidden;
-    transition: transform, background 0.5s ease-in-out, box-shadow 0.3s ease;
+    transition: transform 0.3s ease-in-out, background 0.5s ease-in-out, box-shadow 0.3s ease;
 }
 
 .category-card:hover {
@@ -102,12 +102,12 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 1rem;
     border-left: 3px solid #334155;
     box-shadow: 0 1px 5px rgba(0,0,0,0.2);
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: background 0.3s ease, transform 0.3s ease-in-out;
 }
 
 .review-card:hover {
     background: #2c3e50;
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
 }
 
