@@ -377,7 +377,7 @@ else:
             )
         
         if results['documents'][0]:
-            st.markdown("** Relevant Customer Feedback: **")
+            st.markdown("**Relevant Customer Feedback:**")
             
             feedback_by_sentiment = {'positive': [], 'negative': [], 'neutral': []}
             
@@ -543,38 +543,48 @@ else:
                     st.session_state.restaurant_analyzer = ClusterAnalyzer()
                 
                 analyzer = st.session_state.restaurant_analyzer
-                restaurant_data = analyzer.df[analyzer.df['name'] == selected_name]
-                
-                if not restaurant_data.empty:
-                    analyzer.perform_clustering(n_clusters=min(6, len(restaurant_data)//5))
-                    restaurant_clusters = restaurant_data['cluster_label'].value_counts()
-                    
-                    st.markdown("**Main Topics in Your Reviews:**")
-                    
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        fig = px.pie(
-                            values=restaurant_clusters.values,
-                            names=restaurant_clusters.index,
-                            title=f'Review Topics for {selected_name}'
-                        )
-                        st.plotly_chart(fig, use_container_width=True)
-                    
-                    with col2:
-                        st.markdown("**Topic Breakdown:**")
-                        for topic, count in restaurant_clusters.items():
-                            pct = count / len(restaurant_data) * 100
-                            topic_sentiment = restaurant_data[restaurant_data['cluster_label'] == topic]['sentiment'].mode()
-                            sentiment_emoji = {'positive': '😊', 'negative': '😞', 'neutral': '😐'}
-                            emoji = sentiment_emoji.get(topic_sentiment.iloc[0] if not topic_sentiment.empty else 'neutral', '😐')
+                if hasattr(analyzer, 'df') and not analyzer.df.empty:
+                    if selected_name in analyzer.df['name'].values:
+                        try: 
+                            restaurant_subset = analyzer.df[analyzer.df['name'] == selected_name]
+                            n_clusters = min(6, max(2, len(restaurant_subset) // 5))
+                            analyzer.perform_clustering(n_clusters=n_clusters)
+                            restaurant_data = analyzer.df[analyzer.df['name'] == selected_name]
+                            if not restaurant_data.empty:
+                                restaurant_clusters = restaurant_data['cluster_label'].value_counts()
                             
-                            st.markdown(f"{emoji} **{topic}**: {count} reviews ({pct:.1f}%)")
-                    
-                    negative_topics = restaurant_data[restaurant_data['sentiment'] == 'negative']['cluster_label'].value_counts()
-                    if not negative_topics.empty:
-                        st.markdown("**⚠️ Priority Areas for Improvement:**")
-                        for topic, count in negative_topics.head(3).items():
-                            st.error(f"**{topic}**: {count} negative reviews - Consider addressing this area")
-                
+                                st.markdown("**Main Topics in Your Reviews:**")
+                                
+                                col1, col2 = st.columns(2)
+                                with col1:
+                                    fig = px.pie(
+                                        values=restaurant_clusters.values,
+                                        names=restaurant_clusters.index,
+                                        title=f'Review Topics for {selected_name}'
+                                    )
+                                    st.plotly_chart(fig, use_container_width=True)
+                                
+                                with col2:
+                                    st.markdown("**Topic Breakdown:**")
+                                    for topic, count in restaurant_clusters.items():
+                                        pct = count / len(restaurant_data) * 100
+                                        topic_sentiment = restaurant_data[restaurant_data['cluster_label'] == topic]['sentiment'].mode()
+                                        sentiment_emoji = {'positive': '😊', 'negative': '😞', 'neutral': '😐'}
+                                        emoji = sentiment_emoji.get(topic_sentiment.iloc[0] if not topic_sentiment.empty else 'neutral', '😐')
+                                        
+                                        st.markdown(f"{emoji} **{topic}**: {count} reviews ({pct:.1f}%)")
+                                
+                                negative_topics = restaurant_data[restaurant_data['sentiment'] == 'negative']['cluster_label'].value_counts()
+                                if not negative_topics.empty:
+                                    st.markdown("**⚠️ Priority Areas for Improvement:**")
+                                    for topic, count in negative_topics.head(3).items():
+                                        st.error(f"**{topic}**: {count} negative reviews - Consider addressing this area")
+                        
+                            else:
+                                st.info("Not enough data for topic analysis. This feature works better with restaurants that have more reviews in the dataset.")
+                        except Exception as e:
+                            st.error(f"Error during clustering: {e}")
+                    else:
+                        st.info("No reviews found for the selected restaurant.")
                 else:
-                    st.info("Not enough data for topic analysis. This feature works better with restaurants that have more reviews in the dataset.")
+                    st.warning("Data not yet loaded or empty. Please try again.")

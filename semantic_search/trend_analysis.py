@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -121,12 +122,6 @@ Label (2-4 words):"""
         )
         
         fig.update_traces(marker=dict(size=8, opacity=0.7))
-        fig.update_layout(
-            plot_bgcolor='white',
-            paper_bgcolor='white',
-            font=dict(size=12)
-        )
-        
         return fig
     
     def plot_cluster_by_sentiment(self):
@@ -147,7 +142,6 @@ Label (2-4 words):"""
         fig.update_layout(
             xaxis_tickangle=-45,
             height=500,
-            plot_bgcolor='white'
         )
         
         return fig
@@ -202,7 +196,6 @@ Label (2-4 words):"""
             xaxis_title='Time Period',
             yaxis_title='Percentage of Reviews (%)',
             height=500,
-            plot_bgcolor='white'
         )
         
         return fig
@@ -329,14 +322,6 @@ def cluster_analysis_interface():
                 values=cluster_summary.values,
                 names=cluster_summary.index,
                 title='Topic Distribution'
-            )
-
-            #fix chart ui later, white on white rn
-            fig.update_layout(
-                paper_bgcolor='#f0f2f6',   
-                plot_bgcolor='#f0f2f6',    
-                font=dict(color='black'), 
-                title_font=dict(color='darkblue', size=20),
             )
             st.plotly_chart(fig, use_container_width=True)
         
